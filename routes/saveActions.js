@@ -22,20 +22,27 @@ router.get('/', async (req, res) => {
 
 router.get('/:id/edit', async (req, res) => {
     const actions = await ListActions.getAllActions('list'),
-        list = actions.find(c => c.list_id === req.params.id);
+        list = actions.find(c => c.list_id === req.params.id),
+        noCover = await ListActions.getAllActions(`noCover${list.base}`),
+        allApiBase = await ListActions.getAllActions(`actions${list.base}`),
+        cover = allApiBase.length - list.actions.length;
 
     res.render('saveActions-edit', {
         title: `Редактировать ${list.list_name}`,
-        list
+        list,
+        allApiBase,
+        cover,
+        noCover
     })
 })
 
 router.post('/', async (req, res) => {
+    const baseName = await (req.body.base_name);
     const listName = await (req.body.name_list),
-        saveActionList = await ListActions.getAllActions('noCoverListMZK'),
+        saveActionList = await ListActions.getAllActions(`noCoverList${baseName}`),
         date = ListActions.getDate(),
         list = await ListActions.getAllActions('list');
-    list.push({ list_name: listName, date: date, list_id: uuid(), actions: saveActionList })
+    list.push({ list_name: listName, date: date, base: baseName, list_id: uuid(), actions: saveActionList })
     fs.writeFile(path.join(__dirname, '..', 'data', 'list.json'), JSON.stringify(list), err => {
         if (err) throw err
     })

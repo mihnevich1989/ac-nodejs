@@ -38,7 +38,7 @@ if (txt) {
                 progress.remove()
                 txt.style.boxShadow = 'inherit';
                 txt.setAttribute('disabled', 'disabled')
-                M.toast({ html: 'API загружены' })
+                M.toast({ html: '<span class="teal-text darken-1">API загружены!</span>' })
                 txt.value = data.info.name;
                 apiSubmit.removeAttribute('disabled')
                 return data;

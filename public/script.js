@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const instances2 = M.Modal.init(elems2);
   const elems3 = document.querySelectorAll(".tooltipped");
   const instances3 = M.Tooltip.init(elems3);
-
+  const reAnalitic = document.querySelector('.reAnalitic');
   const $cardNoCover = document.querySelector("#noCoverList");
   if ($cardNoCover) {
     $cardNoCover.addEventListener("click", (event) => {
@@ -19,12 +19,12 @@ document.addEventListener("DOMContentLoaded", function () {
           .then((res) => res.json())
           .then((card) => {
             if (card.length) {
-              M.toast({ html: "Action удален!", displayLength: 500 });
+              M.toast({ html: `<span class="red-text ">Action удален!</span>`, displayLength: 500 });
               const html = card
                 .map((c) => {
                   return `
                 <tr>
-                    <td><strong>${c.action}</strong></td>
+                    <td><b>${c.action}</b></td>
                     <td>${c.name}</td>
                     <td>${c.description}</td>
                     <td><button class="btn btn-small red darken-1 waves-effect waves-light js-remove" data-id=${c.id}><i data-id=${c.id}
@@ -38,6 +38,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 })
                 .join(``);
               $cardNoCover.querySelector("tbody").innerHTML = html;
+              localStorage.setItem('sync', 'false')
+              reAnalitic.setAttribute('disabled', 'disabled')
             } else {
               $cardNoCover.innerHTML = "<p>Actions нет</p>";
             }
@@ -45,6 +47,32 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
+  const backCheck = document.querySelector('.back-check');
+  const enterUpdate = document.querySelector('.updateBase');
+  const fomrSaveList = document.querySelector('#checkUrl')
+  if (backCheck || enterUpdate) {
+    backCheck.setAttribute('href', `${(document.location.pathname).slice(0, 4)}`);
+    enterUpdate.setAttribute('href', `${document.location.pathname}/update`);
+  }
+
+  if (document.location.pathname === '/mzk/check-cover') {
+    fomrSaveList.setAttribute('value', 'MZK')
+  } else if (document.location.pathname === '/lit/check-cover') {
+    fomrSaveList.setAttribute('value', 'Lit')
+  }
+  const reloadPage = document.querySelector('.reloadPage');
+  if (reloadPage) {
+    reloadPage.addEventListener('click', () => {
+      localStorage.setItem('sync', 'true')
+      location.reload();
+    })
+    if (localStorage.getItem('sync') === 'true') {
+      reAnalitic.removeAttribute('disabled')
+    } else {
+      reAnalitic.setAttribute('disabled', 'disabled')
+    }
+  }
+
 
   const coverApi = document.querySelector(".coverApi");
   const noCoverApi = document.querySelector(".noCoverApi");
@@ -83,9 +111,14 @@ document.addEventListener("DOMContentLoaded", function () {
         fetch(`/update-${dataUpdate}`, {
           method: "GET",
         }).then((res) => {
-          if (res) {
+          if (!res.ok) {
             M.toast({
-              html: `База данных ${dataTitle} обновлена!`,
+              html: `<span class="red-text">Нет соединения с базой данных ${dataTitle}!</span>`,
+              displayLength: 1500,
+            });
+          } else {
+            M.toast({
+              html: `<span class="green-text">База данных ${dataTitle} обновлена!</span>`,
               displayLength: 1500,
             });
           }

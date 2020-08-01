@@ -4,23 +4,26 @@ const ListActions = require('../models/listActionsModel');
 
 
 router.delete('/remove/:id', async (req, res) => {
-    const allActions = await ListActions.remove(req.params.id, `noCoverListMZK`)
+    const base = req.baseUrl.slice(1, 4).toUpperCase()
+    const allActions = await ListActions.remove(req.params.id, `noCoverList${base}`)
     res.status(200).json(allActions)
 })
 
 router.get('/update', async (req, res) => {
-    await ListActions.checkCover('apiPostman', 'actionsMZK', 'noCoverMZK')
-    await ListActions.update("noCoverMZK", 'noCoverListMZK')
-    res.redirect('/mzk/check-cover')
+    const base = req.baseUrl.slice(1, 4).toUpperCase()
+    await ListActions.checkCover('apiPostman', `actions${base}`, `noCover${base}`)
+    await ListActions.update(`noCover${base}`, `noCoverList${base}`)
+    res.redirect(`${req.baseUrl}`)
 })
 
 router.get('/', async (req, res) => {
-    const allNoCoverApi = await ListActions.getAllActions('noCoverMZK'),
-        allApiBase = await ListActions.getAllActions('actionsMZK'),
-        allApiUpdateList = await ListActions.getAllActions('noCoverListMZK'),
+    const base = req.baseUrl.slice(1, 4).toUpperCase()
+    const allNoCoverApi = await ListActions.getAllActions(`noCover${base}`),
+        allApiBase = await ListActions.getAllActions(`actions${base}`),
+        allApiUpdateList = await ListActions.getAllActions(`noCoverList${base}`),
         percent = Math.floor((allApiUpdateList.length * 100) / allApiBase.length)
     res.render('checkCover', {
-        title: 'Проект: МЗК - проверка actions',
+        title: `Проект: ${base} - проверка actions`,
         isCheckCover: true,
         allNoCoverApi,
         allApiBase,

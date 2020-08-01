@@ -70,7 +70,7 @@ class UpdateDataBase {
           return obj;
         });
         fs.writeFile(
-          path.join(__dirname, "..", "data", "actionsL.json"),
+          path.join(__dirname, "..", "data", "actionsLit.json"),
           JSON.stringify(data),
           (err) => {
             if (err) {

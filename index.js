@@ -24,6 +24,7 @@ app.use('/mzk', mzkRouter)
 app.use('/lit', litRouter)
 app.use('/mes', mesRouter)
 app.use('/mzk/check-cover', checkCover)
+app.use('/lit/check-cover', checkCover)
 app.use('/save-actions', saveRouter)
 
 app.use(function (err, req, res, next) {

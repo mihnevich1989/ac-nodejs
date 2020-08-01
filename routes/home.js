@@ -11,11 +11,17 @@ router.get("/", (req, res) => {
 
 router.get("/update-mzk", async (req, res) => {
   const baseMzk = await UpdateDataBase.updateMzk();
+  if (!baseMzk) {
+    res.status(500).json();
+  }
   res.status(200).json(baseMzk);
 });
 
 router.get("/update-lit", async (req, res) => {
   const baseLit = await UpdateDataBase.updateLit();
+  if (!baseLit) {
+    res.status(500).json();
+  }
   res.status(200).json(baseLit);
 });
 

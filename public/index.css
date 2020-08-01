@@ -65,7 +65,8 @@ table.highlight > tbody > tr {
 
 .back,
 .updateBase,
-.saveActions {
+.saveActions,
+.reloadPage {
   margin-right: 1.5rem;
 }
 .back i {
@@ -86,4 +87,7 @@ table.highlight > tbody > tr {
 .reAnalitic i {
   font-size: 2rem;
   line-height: 35px !important;
+}
+.collection .collection-item.avatar {
+  min-height: auto;
 }
