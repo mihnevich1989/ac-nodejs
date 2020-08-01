@@ -28,7 +28,7 @@ router.get('/:id/edit', async (req, res) => {
         cover = allApiBase.length - list.actions.length;
 
     res.render('saveActions-edit', {
-        title: `Редактировать ${list.list_name}`,
+        title: `Редактирование ${list.list_name}`,
         list,
         allApiBase,
         cover,

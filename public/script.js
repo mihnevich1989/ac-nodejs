@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const instances2 = M.Modal.init(elems2);
   const elems3 = document.querySelectorAll(".tooltipped");
   const instances3 = M.Tooltip.init(elems3);
-  const reAnalitic = document.querySelector('.reAnalitic');
+  const reAnalitic = document.querySelector(".reAnalitic");
   const $cardNoCover = document.querySelector("#noCoverList");
   if ($cardNoCover) {
     $cardNoCover.addEventListener("click", (event) => {
@@ -19,7 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
           .then((res) => res.json())
           .then((card) => {
             if (card.length) {
-              M.toast({ html: `<span class="red-text ">Action удален!</span>`, displayLength: 500 });
+              M.toast({
+                html: `<span class="red-text ">Action удален!</span>`,
+                displayLength: 500,
+              });
               const html = card
                 .map((c) => {
                   return `
@@ -38,8 +41,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 })
                 .join(``);
               $cardNoCover.querySelector("tbody").innerHTML = html;
-              localStorage.setItem('sync', 'false')
-              reAnalitic.setAttribute('disabled', 'disabled')
+              localStorage.setItem("sync", "false");
+              reAnalitic.setAttribute("disabled", "disabled");
             } else {
               $cardNoCover.innerHTML = "<p>Actions нет</p>";
             }
@@ -47,32 +50,31 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
-  const backCheck = document.querySelector('.back-check');
-  const enterUpdate = document.querySelector('.updateBase');
-  const fomrSaveList = document.querySelector('#checkUrl')
+  const backCheck = document.querySelector(".back-check");
+  const enterUpdate = document.querySelector(".updateBase");
+  const fomrSaveList = document.querySelector("#checkUrl");
   if (backCheck || enterUpdate) {
-    backCheck.setAttribute('href', `${(document.location.pathname).slice(0, 4)}`);
-    enterUpdate.setAttribute('href', `${document.location.pathname}/update`);
+    backCheck.setAttribute("href", `${document.location.pathname.slice(0, 4)}`);
+    enterUpdate.setAttribute("href", `${document.location.pathname}/update`);
   }
 
-  if (document.location.pathname === '/mzk/check-cover') {
-    fomrSaveList.setAttribute('value', 'MZK')
-  } else if (document.location.pathname === '/lit/check-cover') {
-    fomrSaveList.setAttribute('value', 'Lit')
+  if (document.location.pathname === "/mzk/check-cover") {
+    fomrSaveList.setAttribute("value", "MZK");
+  } else if (document.location.pathname === "/lit/check-cover") {
+    fomrSaveList.setAttribute("value", "Lit");
   }
-  const reloadPage = document.querySelector('.reloadPage');
+  const reloadPage = document.querySelector(".reloadPage");
   if (reloadPage) {
-    reloadPage.addEventListener('click', () => {
-      localStorage.setItem('sync', 'true')
+    reloadPage.addEventListener("click", () => {
+      localStorage.setItem("sync", "true");
       location.reload();
-    })
-    if (localStorage.getItem('sync') === 'true') {
-      reAnalitic.removeAttribute('disabled')
+    });
+    if (localStorage.getItem("sync") === "true") {
+      reAnalitic.removeAttribute("disabled");
     } else {
-      reAnalitic.setAttribute('disabled', 'disabled')
+      reAnalitic.setAttribute("disabled", "disabled");
     }
   }
-
 
   const coverApi = document.querySelector(".coverApi");
   const noCoverApi = document.querySelector(".noCoverApi");
@@ -102,21 +104,34 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   //update base
   const updateBase = document.querySelector(".update-base");
+  const updateRow = document.querySelector(".update");
   if (updateBase) {
     updateBase.addEventListener("click", (e) => {
       const rarget = e.target;
       const dataUpdate = rarget.getAttribute("data-update");
       const dataTitle = rarget.getAttribute("data-title");
+      const progress = document.createElement("div");
+      progress.classList.add("progress", "col", "s6", "offset-s3");
+      const preload = document.createElement("div");
+      preload.classList.add("indeterminate");
+      progress.appendChild(preload);
+      progress.style.cssText = `
+                display: block;
+                transform: translateY(-16.7rem);
+      `;
+      updateRow.insertAdjacentElement("beforeend", progress);
       if (dataUpdate === "mzk" || dataUpdate === "lit") {
         fetch(`/update-${dataUpdate}`, {
           method: "GET",
-        }).then((res) => {
+        }).then(async (res) => {
           if (!res.ok) {
+            progress.remove();
             M.toast({
               html: `<span class="red-text">Нет соединения с базой данных ${dataTitle}!</span>`,
               displayLength: 1500,
             });
-          } else {
+          } else if (res.ok) {
+            progress.remove();
             M.toast({
               html: `<span class="green-text">База данных ${dataTitle} обновлена!</span>`,
               displayLength: 1500,
