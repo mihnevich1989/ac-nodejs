@@ -1,0 +1,43 @@
+<ul id="dropdown1" class="dropdown-content">
+    {{#if isMzk}}
+    <li class="active waves-effect waves-light black-text"><a href="/mzk">МЗК</a></li>
+    {{else}}
+    <li class="waves-effect waves-light black-text"><a href="/mzk">МЗК</a></li>
+    {{/if}}
+    <li class="divider"></li>
+    {{#if isLit}}
+    <li class="active waves-effect waves-light black-text"><a href="/lit">Литейка</a></li>
+    {{else}}
+    <li class="waves-effect waves-light black-text"><a href="/lit">Литейка</a></li>
+    {{/if}}
+    <li class="divider"></li>
+    {{#if isMes}}
+    <li class="active waves-effect waves-light black-text"><a href="/mes">МЭС</a></li>
+    {{else}}
+    <li class="waves-effect waves-light black-text"><a href="/mes">МЭС</a></li>
+    {{/if}}
+</ul>
+<nav class="blue-grey darken-3">
+    <div class="nav-wrapper">
+        <a href="/" class="left brand-logo white-text lighten-5">API Coverage</a>
+        <ul class="right ">
+            {{#if isHome}}
+            <li class="active waves-effect waves-light white-text lighten-5"><a href="/">Главная</a></li>
+            {{else}}
+            <li class="waves-effect waves-light"><a href="/">Главная</a></li>
+            {{/if}}
+            {{#if isSave}}
+            <li class="active waves-effect waves-light white-text lighten-5"><a href="/save-actions">Сохраненные
+                    списки</a></li>
+            {{else}}
+            <li class="waves-effect waves-light"><a href="/save-actions">Сохраненные списки</a></li>
+            {{/if}}
+
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-trigger waves-effect waves-light white-text lighten-5" href="#!"
+                    data-target="dropdown1">Выбор проекта<i class="material-icons right">arrow_drop_down</i></a></li>
+
+        </ul>
+
+    </div>
+</nav>

@@ -1,0 +1,89 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+body {
+  background: #e3f2fd;
+}
+.nav-wrapper {
+  padding: 0 2rem;
+}
+form {
+  position: relative;
+}
+.row .col {
+  padding: inherit;
+}
+.mzk .apiSubmit,
+.prevResult {
+  margin-top: 1rem;
+  padding: 0.35rem;
+  height: auto;
+  width: 20rem;
+  position: relative;
+}
+.apiSubmit i,
+.prevResult i {
+  position: absolute;
+  left: 7%;
+  top: 10%;
+  font-size: 2rem;
+  transition: all 0.5s ease-in-out;
+}
+.apiSubmit:hover i,
+.prevResult:hover i {
+  transform: rotate(360deg);
+}
+
+.card.blue-grey.darken-2.mzk-actions {
+  height: 100%;
+  max-height: 55rem;
+  overflow: hidden;
+}
+.card-content.white-text.no-cover-list {
+  height: 100%;
+  max-height: 40rem;
+  transition: 0.15s ease-in-out;
+  overflow: hidden;
+}
+.card-content.white-text.no-cover-list:hover {
+  overflow: auto;
+}
+
+.card-content.white-text.edit-watch {
+  max-height: 46rem;
+}
+.card-content.white-text table td {
+  padding: 10px 5px;
+  cursor: default;
+}
+.card-content .arrow-back {
+  font-size: 2rem;
+}
+table.highlight > tbody > tr {
+  padding: 3px 0;
+}
+
+.back,
+.updateBase,
+.saveActions {
+  margin-right: 1.5rem;
+}
+.back i {
+  padding-top: 2px;
+}
+.btn-small i.trash {
+  font-size: 1.7rem;
+}
+[type="checkbox"] + span:not(.lever):before {
+  border: 2px solid #e7e7e7;
+}
+[type="checkbox"]:checked + span:not(.lever):before {
+  border-right: 2px solid #17e6d1;
+  border-bottom: 2px solid #17e6d1;
+  color: #e53935;
+}
+
+.reAnalitic i {
+  font-size: 2rem;
+  line-height: 35px !important;
+}

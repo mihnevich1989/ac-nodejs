@@ -1,0 +1,2288 @@
+[
+  {
+    "action": "Home",
+    "name": "Главная",
+    "description": "Домой",
+    "id": "fdc53059-7e6b-437d-bbf5-5fe8eb7ed74f"
+  },
+  {
+    "action": "TitlePageData",
+    "name": "Данные для титульной страницы",
+    "description": "Данные для титульной страницы",
+    "id": "a594130a-ab59-47bd-a44c-57cd9b8b3796"
+  },
+  {
+    "action": "UserFavoriteMenuUpdate",
+    "name": "Редактирование избранного меню",
+    "description": null,
+    "id": "e50210b7-2a42-491d-ace2-a0bfbaba85e1"
+  },
+  {
+    "action": "PersonalArea",
+    "name": "Личный кабинет",
+    "description": "Личный кабинет (Модуль)",
+    "id": "ec337f01-8f7a-4032-95e2-700a10bed230"
+  },
+  {
+    "action": "Foundry",
+    "name": "Литейные мощности",
+    "description": "Литейные мощности (Подсистема)",
+    "id": "17a0d253-ef8e-4c22-9631-8b7290ee93ae"
+  },
+  {
+    "action": "ProdactionPotential",
+    "name": "Производственный потенциал",
+    "description": "Производственный потенциал (Подсистема)",
+    "id": "41d57a23-8845-48ae-9f24-0c4c5d7d8829"
+  },
+  {
+    "action": "TechnologicalSPP",
+    "name": "Технологическая СПП",
+    "description": "Технологическая СПП (Модуль)",
+    "id": "2a3a270d-b26a-4a5c-b4f8-80a543789a8b"
+  },
+  {
+    "action": "TechnologicalCapabilityList",
+    "name": "Потенциал технологических возможностей",
+    "description": "Ведение данных о технологических возможностях литейного производства",
+    "id": "d0c70ed2-7742-4431-a225-e51059ac723e"
+  },
+  {
+    "action": "TechnologicalCapabilityDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "7798299f-7cc8-4c82-a86b-d0d807d518c3"
+  },
+  {
+    "action": "TechnologicalCapabilityUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "4ae876e3-6546-4a28-8614-c355bab5bbf0"
+  },
+  {
+    "action": "TechnologicalCapabilityDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "e89bb283-bbc3-483e-ac34-2779d05e65df"
+  },
+  {
+    "action": "TechnologicalCapabilityRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "a739c3c1-8b3b-4f1d-b722-e78f98a5beeb"
+  },
+  {
+    "action": "TechnologicalCapabilityShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "a089ad01-253e-4760-8472-3eb5ebb07d15"
+  },
+  {
+    "action": "TechnologicalCapabilitySysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "4003b5ec-8e17-4265-be8c-071f248a98b1"
+  },
+  {
+    "action": "TechnologicalCapabilityStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "21a66e54-b0e2-4ced-85f5-2495d482eb54"
+  },
+  {
+    "action": "TechnologicalCapabilityStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "a9a0067f-efae-46a8-85b8-df89173d24fa"
+  },
+  {
+    "action": "SpecPotentialCapabilityList",
+    "name": "Позиции спецификации потенциала технологических возможностей",
+    "description": "Позиции спецификации потенциала технологических возможностей (Функция)",
+    "id": "c3be99b4-8f96-4ff0-bf28-b6dfb9f1d075"
+  },
+  {
+    "action": "SpecPotentialCapabilityDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "d1622746-ebbb-46ef-b523-a3852ea6d864"
+  },
+  {
+    "action": "SpecPotentialCapabilityUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "4e45fc1f-dad6-4ef1-b8c2-bf6821af84b3"
+  },
+  {
+    "action": "SpecPotentialCapabilityDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "6a74fdc9-0757-478f-930d-fe9e6d7b7af8"
+  },
+  {
+    "action": "SpecPotentialCapabilityRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "3fea7173-fe26-4bb6-b284-eebb590fc7d3"
+  },
+  {
+    "action": "SpecPotentialCapabilityShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "3111766d-7834-409f-b417-844d831d900b"
+  },
+  {
+    "action": "SpecPotentialCapabilitySysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "dbd508c8-7a3b-470d-9c67-70f32cabcaa9"
+  },
+  {
+    "action": "SpecPotentialCapabilityStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "a977070d-c29a-40ae-9c7e-237421dfcab8"
+  },
+  {
+    "action": "SpecPotentialCapabilityStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "6590363d-a2df-42ea-b57d-c6b6e00f772f"
+  },
+  {
+    "action": "SpecPotentialCapabilityGetClassifier",
+    "name": "Список классификаторов",
+    "description": "Список классификаторов",
+    "id": "432c841a-e1b5-4233-af93-bf05f2b34b50"
+  },
+  {
+    "action": "SpecPotentialCapabilityGetCC002",
+    "name": "Список классификаторов",
+    "description": "Список классификаторов",
+    "id": "6be60b72-2de6-48b5-bb74-d70c8486e54c"
+  },
+  {
+    "action": "PotentialTechnologicalResourceList",
+    "name": "Потенциал технологических ресурсов",
+    "description": "Ведение данных о технологических ресурсах литейного производства",
+    "id": "a2111980-579a-40ac-b799-ba41d26433c2"
+  },
+  {
+    "action": "PotentialTechnologicalResourceDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "dba1d65e-892e-42a2-b072-8325ff43ce24"
+  },
+  {
+    "action": "PotentialTechnologicalResourceUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "717fc39b-7eab-4ff2-80fa-b924acec43b6"
+  },
+  {
+    "action": "PotentialTechnologicalResourceDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "9e1d0052-f74a-4574-a560-0f182586bb60"
+  },
+  {
+    "action": "PotentialTechnologicalResourceCopy",
+    "name": "Копирование",
+    "description": "Копирование",
+    "id": "a429e5fd-ccb0-46b3-a632-bcef94954026"
+  },
+  {
+    "action": "PotentialTechnologicalResourceRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "6f196419-da51-478d-bb7e-f0f663ff7a14"
+  },
+  {
+    "action": "PotentialTechnologicalResourceShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "5e831740-9b6b-4118-9399-e23b827d3738"
+  },
+  {
+    "action": "PotentialTechnologicalResourceSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "bae41016-b0af-400b-8bed-4625b0a979bf"
+  },
+  {
+    "action": "PotentialTechnologicalResourceStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "1285f550-c1ac-43a8-b92e-d128b4b4032c"
+  },
+  {
+    "action": "PotentialTechnologicalResourceStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "e0305c19-f75a-4482-865f-cdfb0780629d"
+  },
+  {
+    "action": "SpecPotentialResourceList",
+    "name": "Позиции потенциала ресурсов",
+    "description": "Позиции спецификации потенциала ресурсов по составляющим производственного потенциала (Функция)",
+    "id": "ef14aef9-13cc-4b4d-8a7a-61a5351b034a"
+  },
+  {
+    "action": "SpecPotentialResourceDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "2bdf06c7-4aa4-4d0a-9264-5ca46c4e4878"
+  },
+  {
+    "action": "SpecPotentialResourceUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "e89d84dc-c2dd-4777-b624-93502ce22d23"
+  },
+  {
+    "action": "SpecPotentialResourceDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "589cf74b-4380-44b7-98b3-637e634f58d6"
+  },
+  {
+    "action": "ValuePotentialResourceDetail",
+    "name": "Значения показателей потенциала ресурсов",
+    "description": "Значения показателей потенциала ресурсов",
+    "id": "f898c9ec-47ea-4c00-b199-3558f4aa26e4"
+  },
+  {
+    "action": "SpecPotentialResourceRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "fc6f187c-8773-4ea9-933e-95e43211b959"
+  },
+  {
+    "action": "SpecPotentialResourceShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "07440478-a848-40db-b74e-1899fe087ac7"
+  },
+  {
+    "action": "SpecPotentialResourceSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "031a7030-eff1-40f7-8a8b-b6e5707811f7"
+  },
+  {
+    "action": "SpecPotentialResourceStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "3f236ee0-3bc5-4706-a501-ce48d560391c"
+  },
+  {
+    "action": "SpecPotentialResourceStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "367b0a67-2993-420c-8000-8316182740e8"
+  },
+  {
+    "action": "ProdactionSPP",
+    "name": "Производственная СПП",
+    "description": "Производственная СПП (Модуль)",
+    "id": "d086d02c-9cee-4f10-963a-fbf074824900"
+  },
+  {
+    "action": "PotentialProdactionResourceList",
+    "name": "Потенциал производственных ресурсов",
+    "description": "Ведение данных о производственных ресурсах литейного производства",
+    "id": "918741fc-5e16-45a3-b8fc-4ac463e85f77"
+  },
+  {
+    "action": "PotentialProdactionResourceDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "6d79de35-a862-4966-b4f1-9ea43ef950a9"
+  },
+  {
+    "action": "PotentialProdactionResourceUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "ec1eb1f2-3788-4fee-a2cf-cf6670fbdd9d"
+  },
+  {
+    "action": "PotentialProdactionResourceDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "d95fd3d0-9e0e-4509-88ac-85a11d5295c4"
+  },
+  {
+    "action": "PotentialProdactionResourceCopy",
+    "name": "Копирование",
+    "description": "Копирование",
+    "id": "ba4c40fb-474b-4289-bd03-caf18463a1c7"
+  },
+  {
+    "action": "PotentialProdactionResourceRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "0cc13f00-95ea-459e-96ef-4eb4e2e0395e"
+  },
+  {
+    "action": "PotentialProdactionResourceShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "5340e8c7-4aa8-46f8-a50e-9625c504c09c"
+  },
+  {
+    "action": "PotentialProdactionResourceSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "ca939ae0-4ae7-4202-9cd1-3099a4d38d46"
+  },
+  {
+    "action": "PotentialProdactionResourceStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "01bec795-e103-4822-b797-55dbf19d7520"
+  },
+  {
+    "action": "PotentialProdactionResourceStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "ad37e697-f70b-4e23-9793-3213f764dd1e"
+  },
+  {
+    "action": "HumanSPP",
+    "name": "Кадровая СПП",
+    "description": "Кадровая СПП (Модуль)",
+    "id": "737d8f3f-b633-47de-8384-79e300961400"
+  },
+  {
+    "action": "PotentialHumanResourceList",
+    "name": "Потенциал кадровых ресурсов",
+    "description": "Ведение данных о кадровых ресурсах литейного производства",
+    "id": "99ee329a-35da-4a27-81dc-febd9286eb96"
+  },
+  {
+    "action": "PotentialHumanResourceDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "647e7876-36de-49cb-bfc7-3a14c46410b2"
+  },
+  {
+    "action": "PotentialHumanResourceUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "037c8be2-4aa2-4165-afce-03587c60e6e3"
+  },
+  {
+    "action": "PotentialHumanResourceDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "f621d88a-556b-439f-a595-f60fb7d89cd3"
+  },
+  {
+    "action": "PotentialHumanResourceCopy",
+    "name": "Копирование",
+    "description": "Копирование",
+    "id": "0d60cdea-790e-45bb-9d0f-5425aa8e882c"
+  },
+  {
+    "action": "PotentialHumanResourceRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "07be1bbd-bd0d-4078-bac5-2bbf55c3a5a7"
+  },
+  {
+    "action": "PotentialHumanResourceShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "b269a974-9899-4247-a69b-6e50fe8ae586"
+  },
+  {
+    "action": "PotentialHumanResourceSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "b0ce0fdf-e58f-477e-9ead-f6427879ff25"
+  },
+  {
+    "action": "PotentialHumanResourceStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "20184fd5-7d0b-465c-8e68-daf7054e0040"
+  },
+  {
+    "action": "PotentialHumanResourceStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "875929ab-b2f2-4481-831f-9aac23e0aaa8"
+  },
+  {
+    "action": "AnaliticalReporting",
+    "name": "Аналитическая отчетность",
+    "description": "Аналитическая отчетность (Модуль)",
+    "id": "5454bec5-b687-431d-b4ff-a3fee3c4cba4"
+  },
+  {
+    "action": "AnalysisGeneral",
+    "name": "Общий анализ",
+    "description": "Проведение анализа показателей по производственному потенциалу литейного производства в разрезе типов сплавов и способов литья",
+    "id": "aa77f113-051a-46cb-8986-1570b7018b52"
+  },
+  {
+    "action": "AnalysisStructural",
+    "name": "Структурный анализ",
+    "description": "Проведение анализа структуры литейного производства в виде древовидного представления с группировкой данных по округам, регионам, типам сплавов, способов литья",
+    "id": "33b25f4e-a59b-49dd-a921-0950daaf2d92"
+  },
+  {
+    "action": "AnalysisChronological",
+    "name": "Хронологический анализ",
+    "description": "Проведение хронологического анализа динамики показателей производственного потенциала литейного производства по периодам (годам, кварталам, месяцам)",
+    "id": "9ad01466-9f80-4c02-84d2-fd06605d1c1a"
+  },
+  {
+    "action": "AnalysisComparative",
+    "name": "Сравнительный анализ",
+    "description": "Проведение сравнительного анализа показателей производственного потенциала литейного производства по двум или более округам, районам, регионам, УИВ",
+    "id": "633296cd-671e-4fcd-8479-a2e52f3ef83a"
+  },
+  {
+    "action": "AnalysisABC",
+    "name": "ABC анализ",
+    "description": "Проведение анализа методом, позволяющим классифицировать объекты анализа в разрезе показателей производственного потенциала литейного производства по степени их важности",
+    "id": "fc6f314e-41a3-4898-8e87-e64f1ed39dbd"
+  },
+  {
+    "action": "ProdactionPotentialAtlas",
+    "name": "Атлас производственного потенциала",
+    "description": "Проведение анализа па параметрам технологических возможностей на гео - карте РФ",
+    "id": "d3015a9e-6d85-4c0c-ad9a-c0dcb1504505"
+  },
+  {
+    "action": "ReportMapValuesState",
+    "name": "Карта производственного потенциала",
+    "description": "Карта производственного потенциала (Функция)",
+    "id": "4a02d9db-cd04-4955-81e4-b53ffb199695"
+  },
+  {
+    "action": "ReportMapValuesRegion",
+    "name": "Данные по региону",
+    "description": "Данные по региону (Функция)",
+    "id": "5ad50c4e-abcc-4db9-8ea5-812ab1267925"
+  },
+  {
+    "action": "ReportMapValuesParticipant",
+    "name": "Данные по предприятию",
+    "description": "Данные по предприятию (Функция)",
+    "id": "525a6060-309d-454b-aaa9-b90a5c4b2fa2"
+  },
+  {
+    "action": "AnalysisTechnologicalPossibility",
+    "name": "Универсальный отчет по технологическим возможностям",
+    "description": "Универсальный отчет по технологическим возможностям",
+    "id": "4ca844f5-3153-4d26-918e-1ddc92063a3f"
+  },
+  {
+    "action": "CapacityUtilization",
+    "name": "Универсальный отчет",
+    "description": "Настройка и формирование отчетов по массиву данных производственного потенциала",
+    "id": "16e948d7-5adf-48e0-8feb-56ded8d83aa0"
+  },
+  {
+    "action": "ReportFilterParticipantPossibility",
+    "name": "Фильтр: данные аналитических срезов по техвозможностям",
+    "description": "Фильтр: данные аналитических срезов по техвозможностям",
+    "id": "d3249805-90df-450f-8f99-ac39c9be7400"
+  },
+  {
+    "action": "ReportFilterParticipantResource",
+    "name": "Фильтр: данные аналитических срезов по техресурсам",
+    "description": "Фильтр: данные аналитических срезов по техресурсам",
+    "id": "4fb45d99-b07d-4451-8f94-f5db4f50efbd"
+  },
+  {
+    "action": "Portal",
+    "name": "Портал",
+    "description": "Портал (Подсистема)",
+    "id": "5fb95718-12ae-4b50-ac54-acbd8bc0c7b0"
+  },
+  {
+    "action": "OrderManagement",
+    "name": "Управление заказами",
+    "description": "Управление заказами (Модуль)",
+    "id": "4de4ba94-985c-4db2-8f5a-f8bb3c611c44"
+  },
+  {
+    "action": "RequestList",
+    "name": "Запросы исходящие",
+    "description": "Ведение данных о потребностях в технологических возможностях участником информационного взаимодействия",
+    "id": "c2dbc675-6652-481c-a544-276220ceb651"
+  },
+  {
+    "action": "RequestDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "432f80fd-49b7-4d0e-916e-3aa684b3b432"
+  },
+  {
+    "action": "RequestUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "a116cf0a-a777-4865-9281-afd903d1a27c"
+  },
+  {
+    "action": "RequestDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "75a7b83f-449b-4347-bbab-db922e9f773c"
+  },
+  {
+    "action": "RequestRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "1277c755-ceb4-4c1f-9ab7-e79347328041"
+  },
+  {
+    "action": "RequestShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "f7ba1ac5-b010-4940-9508-2a9ec1d7305e"
+  },
+  {
+    "action": "RequestSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "9c191d52-9138-42cd-8082-ba72d5618d41"
+  },
+  {
+    "action": "RequestStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "2adc0fc4-815b-4946-bc91-d179d6bf0767"
+  },
+  {
+    "action": "RequestStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "77e3769e-2f7b-4c66-a7c5-4c99f4691c33"
+  },
+  {
+    "action": "SpecRequestList",
+    "name": "Позиции запроса",
+    "description": "Позиции спецификации запроса на технологические возможности и ресурсы литейного производства (Функция)",
+    "id": "3c9e0d56-4859-4057-ab67-3da0c78b0ae0"
+  },
+  {
+    "action": "SpecRequestDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "c31f6635-ae30-4bec-addf-e2a7b666a17f"
+  },
+  {
+    "action": "SpecRequestUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "59789097-6176-445d-864d-fd1cf670dd44"
+  },
+  {
+    "action": "SpecRequestDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "eae6b52b-a0ab-4455-9ed8-40b0096983f8"
+  },
+  {
+    "action": "SpecRequestRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "579c607f-ff37-4ee5-b48b-bea9347b501b"
+  },
+  {
+    "action": "SpecRequestShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "bf563abf-17c2-4a15-8b00-e8dff943bc65"
+  },
+  {
+    "action": "SpecRequestSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "4d025823-fb62-4fc7-afc7-6145354e8680"
+  },
+  {
+    "action": "SpecRequestStatusChange",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "7127f40a-cf39-4f13-981c-bc5ce4fbf63e"
+  },
+  {
+    "action": "SpecRequestStatusNext",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "138bb716-efdd-4011-9269-a78814328ea8"
+  },
+  {
+    "action": "RequestInList",
+    "name": "Запросы входящие",
+    "description": "Ведение данных о потребностях в технологических возможностях оператором",
+    "id": "2e94a5d7-f3f4-454a-83c1-e8282afa7854"
+  },
+  {
+    "action": "RequestInDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "8a30d8e1-ef17-45c5-abe6-3ec5e47cafcc"
+  },
+  {
+    "action": "RequestInUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "9f4925d6-f4f7-4fd6-92af-cbb2569e7773"
+  },
+  {
+    "action": "RequestInDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "a82a74df-020d-49fe-b46a-83140f8581a0"
+  },
+  {
+    "action": "RequestInRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "7dd37fcf-1fa5-474b-b1ea-822f276426c3"
+  },
+  {
+    "action": "RequestInShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "bac9d290-b2e8-478a-b89d-1aea30124928"
+  },
+  {
+    "action": "RequestInSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "eb4fdba2-78db-4ca7-bd40-22c9bb2fbb35"
+  },
+  {
+    "action": "RequestInStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "15b2e530-ea40-4fb1-9983-d007b01a90f0"
+  },
+  {
+    "action": "RequestInStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "557cc8e8-4561-41c4-bd7c-2950adb1abcb"
+  },
+  {
+    "action": "SpecRequestInList",
+    "name": "Позиции запроса",
+    "description": "Позиции спецификации запроса на технологические возможности и ресурсы литейного производства (Функция)",
+    "id": "6cfd6716-c7db-4b70-95e4-14cf72dbc237"
+  },
+  {
+    "action": "SpecRequestInDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "6dd4b7e0-2c4b-4c0c-aa54-a47cb2b915cd"
+  },
+  {
+    "action": "SpecRequestInUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "0a2385b0-a07f-48aa-aa5a-f12fd7cb39ba"
+  },
+  {
+    "action": "SpecRequestInDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "cd6933e0-0306-45a8-91d2-e0c13d51523e"
+  },
+  {
+    "action": "SpecRequestInRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "c3ffc554-bb3f-4030-b280-248336ed493a"
+  },
+  {
+    "action": "SpecRequestInShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "c87c72ec-06a9-4e82-a86d-1563757c1eca"
+  },
+  {
+    "action": "PossibleContractorsList",
+    "name": "Потенциальные исполнители",
+    "description": "Просмотр перечня возможных исполнителей по результатам запросов и формирование исходящих заказов контрагентам",
+    "id": "c0c8f809-87f6-478a-bf99-f60f113db630"
+  },
+  {
+    "action": "PossibleContractorsDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "b83a2c48-46e2-466f-9bdd-b81d94ce7178"
+  },
+  {
+    "action": "PossibleContractorsSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "afe1c7d0-45d3-4a53-b1a4-f8369e304c25"
+  },
+  {
+    "action": "SpecPossibleContractorsList",
+    "name": "Спецификация потенциальных исполнителей",
+    "description": "Спецификация потенциальных исполнителей (Функция)",
+    "id": "0ca8c934-1ea8-40f8-a493-3c8cab117914"
+  },
+  {
+    "action": "SpecPossibleContractorsOrdersDetail",
+    "name": "Сформировать заказ",
+    "description": "Сформировать заказ (Функция)",
+    "id": "2f490272-4591-4765-a6a5-18ca53978ccb"
+  },
+  {
+    "action": "SpecPossibleContractorsOrdersUpdate",
+    "name": "Сохранить заказ",
+    "description": "Сохранить заказ (Функция)",
+    "id": "5200c3ba-bb73-482e-a349-68e15dd6cb64"
+  },
+  {
+    "action": "SpecPossibleContractorsSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация (Функция)",
+    "id": "db2cd961-0dea-4be1-81a8-8e585932d9ef"
+  },
+  {
+    "action": "OrdersOutList",
+    "name": "Заказы исходящие",
+    "description": "Управление сформированными исходящими заказами контрагентам и взаимодействием по ним",
+    "id": "4284e0b6-e2bd-4a2f-843d-192e66af30bc"
+  },
+  {
+    "action": "OrdersOutDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "0a37b975-27b3-46d8-843f-e1970c0f510c"
+  },
+  {
+    "action": "OrdersUpdate",
+    "name": "Редактирование",
+    "description": "Редактирование",
+    "id": "bcfc7522-855e-4c78-a207-a1efcde6d74d"
+  },
+  {
+    "action": "OrdersDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "b60c60a9-8ae4-44fa-9423-4d9f752c3367"
+  },
+  {
+    "action": "OrdersRestore",
+    "name": "Восстановить",
+    "description": "Восстановить",
+    "id": "9e314929-328a-4876-92c9-085009d299cf"
+  },
+  {
+    "action": "OrdersOutShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "a92c5a20-3835-4da6-93f5-83d9712bf7d7"
+  },
+  {
+    "action": "OrdersSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "ba195ea0-c757-42f5-b8c8-9414acf0c227"
+  },
+  {
+    "action": "OrdersStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "606f4271-beb9-44d9-a6c6-b81a72c7fb79"
+  },
+  {
+    "action": "OrdersStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "9b563373-1316-4de0-b08c-4b79d066d30a"
+  },
+  {
+    "action": "OrdersInList",
+    "name": "Заказы входящие",
+    "description": "Просмотр полученных заказов от контрагентов, управление взаимодействием по ним и формирование коммерческих предложений",
+    "id": "806637b1-387e-45be-93e6-5b6f161577bd"
+  },
+  {
+    "action": "OrdersInDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "681eee92-1222-4ae2-963e-f304fcb10a65"
+  },
+  {
+    "action": "OrdersInShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "4ac47ee6-1919-41be-9749-07f483c8285e"
+  },
+  {
+    "action": "SpecOrdersList",
+    "name": "Позиции заказа",
+    "description": "Позиции заказа (Функция)",
+    "id": "a3f63191-76b0-4d40-8d16-00ae31a2c423"
+  },
+  {
+    "action": "SpecOrdersDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "7648ecfb-e757-4656-928a-709d50648193"
+  },
+  {
+    "action": "SpecOrdersUpdate",
+    "name": "Сохранение",
+    "description": "Сохранение",
+    "id": "777db7e0-8571-4edb-9076-658a3bf45e8f"
+  },
+  {
+    "action": "SpecOrdersDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "7e937c91-982f-44d6-aa44-2e06c1a2c572"
+  },
+  {
+    "action": "SpecOrdersSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "0f9292d7-4466-4f34-a602-b347b7d8fa39"
+  },
+  {
+    "action": "SpecOrdersForSelect",
+    "name": "Выбор заказов для копирования поставок",
+    "description": "Выбор заказов для копирования поставок",
+    "id": "dba8a16a-2c01-4a00-90e4-e95ce83cd930"
+  },
+  {
+    "action": "SpecOrdersCopyDelivery",
+    "name": "Копирование графиков поставок",
+    "description": "Копирование графиков поставок",
+    "id": "6108f9b0-dcb8-48ff-b9c3-ae3146654404"
+  },
+  {
+    "action": "SpecOrdersStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "5d17036e-b2ae-4897-b768-bd5a9ea0faad"
+  },
+  {
+    "action": "SpecOrdersStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "cfb85f83-f6b8-4de7-b085-0d2c36e14418"
+  },
+  {
+    "action": "SpecOrdersCreateOffers",
+    "name": "Создание ком.предложения из заказа",
+    "description": "Создание ком.предложения из заказа",
+    "id": "63a5cb76-ac1a-499c-a1b3-944712072da0"
+  },
+  {
+    "action": "DeliverySchedulesList",
+    "name": "График поставок изделий",
+    "description": "График поставок изделий (Функция)",
+    "id": "36c0155a-ccaa-4c42-9e4a-c3b6dbe37001"
+  },
+  {
+    "action": "DeliverySchedulesDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "05ecfd40-746b-4361-95e2-d286f56e1a9a"
+  },
+  {
+    "action": "DeliverySchedulesUpdate",
+    "name": "Сохранение",
+    "description": "Сохранение",
+    "id": "5b1f727e-d15b-48b5-a80a-5de1f6883faf"
+  },
+  {
+    "action": "DeliverySchedulesDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "df145446-21c8-4c56-87a2-43d7821c9e96"
+  },
+  {
+    "action": "DeliverySchedulesRestore",
+    "name": "Восстановить",
+    "description": "Восстановить",
+    "id": "e150da0c-34e1-4b20-931d-5c3ac5e9a1b0"
+  },
+  {
+    "action": "DeliverySchedulesShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "20d0f065-d2ae-4143-bbd6-e9c1c39cc6fd"
+  },
+  {
+    "action": "DeliverySchedulesSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "c3916200-8f93-4f0e-9bdb-d84b634a357c"
+  },
+  {
+    "action": "OffersOutList",
+    "name": "Коммерческие предложения исходящие",
+    "description": "Ведение коммерческих предложений на основании полученных заказов и управление взаимодействием по ним",
+    "id": "a0abcac4-2775-470e-b934-133d00df4424"
+  },
+  {
+    "action": "OffersOutDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "0c7f2780-f95c-4723-93e4-895bfeb47779"
+  },
+  {
+    "action": "OffersUpdate",
+    "name": "Сохранение",
+    "description": "Сохранение",
+    "id": "1868cc66-6af1-41b8-8e46-2a107e7cd186"
+  },
+  {
+    "action": "OffersOutShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "e03b00f6-f934-498f-bbfe-cde9adcda132"
+  },
+  {
+    "action": "OffersDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "f08c27fc-3b08-44d4-a95f-7c30fbbee467"
+  },
+  {
+    "action": "OffersRestore",
+    "name": "Восстановить",
+    "description": "Восстановить",
+    "id": "e09a397f-1d85-462c-8416-30a30762a5bd"
+  },
+  {
+    "action": "OffersSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "00c78097-0ce9-40e4-aa49-10cadf8a5220"
+  },
+  {
+    "action": "OffersStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "c6681a69-26ad-4d7e-a21b-a06316eb41ac"
+  },
+  {
+    "action": "OffersStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "294f82dc-4912-4f90-97b1-1c784d8cb23c"
+  },
+  {
+    "action": "SpecOffersList",
+    "name": "Позиции коммерческого предложения",
+    "description": "Позиции коммерческого предложения (Функция)",
+    "id": "7ad387c1-bf6d-4d25-b956-a50404da8472"
+  },
+  {
+    "action": "SpecOffersDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "a71ab9c7-6f69-4438-bcff-4a1af6351833"
+  },
+  {
+    "action": "SpecOffersUpdate",
+    "name": "Сохранение",
+    "description": "Сохранение",
+    "id": "c675e72f-8e49-45f6-be4d-9d0457c16c4a"
+  },
+  {
+    "action": "SpecOffersDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "6abea7dd-27ab-4755-98fc-de5acedc5504"
+  },
+  {
+    "action": "SpecOffersSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "520396a8-0e1b-42e5-b45d-08abb89e4475"
+  },
+  {
+    "action": "SpecOffersStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "bd963c73-4745-45f7-a330-6d9ab8bbe0a3"
+  },
+  {
+    "action": "SpecOffersStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "fd984d37-44f5-4012-9fa9-199dc7c4864a"
+  },
+  {
+    "action": "OfferDeliverySchedulesList",
+    "name": "График поставок изделий по коммерческому предложению",
+    "description": "График поставок изделий по коммерческому предложению (Функция)",
+    "id": "03f8c1a6-4818-4876-a7c4-e3f6b2b26209"
+  },
+  {
+    "action": "OfferDeliverySchedulesDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "e143c828-587a-4fd5-bd7f-a8dca5a9f90e"
+  },
+  {
+    "action": "OfferDeliverySchedulesUpdate",
+    "name": "Сохранение",
+    "description": "Сохранение",
+    "id": "e4afed0c-f1c7-4391-bbe7-64bfc97c64ec"
+  },
+  {
+    "action": "OfferDeliverySchedulesDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "0d2d77de-4b78-4f1f-9e2c-8981afc28ad4"
+  },
+  {
+    "action": "OfferDeliverySchedulesRestore",
+    "name": "Восстановить",
+    "description": "Восстановить",
+    "id": "3e5eed1e-356e-4a0d-a40b-382bcbe6671a"
+  },
+  {
+    "action": "OfferDeliverySchedulesShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "b78c22f7-1c58-4b8d-8a14-7bfe482bae8d"
+  },
+  {
+    "action": "OfferDeliverySchedulesSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "ecbc4576-9b92-4c90-86f7-165a4b9caf8b"
+  },
+  {
+    "action": "OffersInList",
+    "name": "Коммерческие предложения входящие",
+    "description": "Просмотр полученных коммерческих предложений от контрагентов, управление взаимодействием по ним",
+    "id": "3b4faced-6d6d-4331-b146-e53d0ec22603"
+  },
+  {
+    "action": "OffersInDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "0666a52e-9d8f-4e1f-81cd-94b5149ce1e0"
+  },
+  {
+    "action": "OffersInShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "6bef5f17-4d2f-4e15-989a-e0a4cf67b95b"
+  },
+  {
+    "action": "MessageManagement",
+    "name": "Управление коммуникацией",
+    "description": "Управление коммуникацией (Модуль)",
+    "id": "0a44b269-1526-4d9b-863e-177a3e0910ff"
+  },
+  {
+    "action": "DocumentList",
+    "name": "Сообщения",
+    "description": "Управление сообщениями с контрагентами",
+    "id": "480ed2ed-637c-48b7-8c7f-8f4bebb5eef9"
+  },
+  {
+    "action": "MessageItemsList",
+    "name": "Элементы сообщения",
+    "description": "Элементы сообщения",
+    "id": "85893f5c-5429-44cb-b94a-01ffd2c2ca96"
+  },
+  {
+    "action": "MessageItemsUpdate",
+    "name": "Сохранение",
+    "description": "Сохранение",
+    "id": "77b67023-251f-4588-8c12-31178f89e5bb"
+  },
+  {
+    "action": "FilesListView",
+    "name": "Список файлов",
+    "description": "Список файлов",
+    "id": "7a8aea1f-f49c-4214-98d5-86c536023acc"
+  },
+  {
+    "action": "FilesAdd",
+    "name": "Добавление нового файла",
+    "description": "Добавление нового файла",
+    "id": "d58c2678-6baf-4147-b793-17176982e988"
+  },
+  {
+    "action": "FilesDelete",
+    "name": "Удаление файла",
+    "description": "Удаление файла",
+    "id": "36d57182-5740-4590-b071-378464b7c712"
+  },
+  {
+    "action": "FilesRestore",
+    "name": "Восстановление файла",
+    "description": "Восстановление файла",
+    "id": "f6b0f46c-124e-48b9-97da-579d3a6bd3a0"
+  },
+  {
+    "action": "FilesShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "86171f1d-72ba-4b20-814a-8cf3a0f7643d"
+  },
+  {
+    "action": "UploadFile",
+    "name": "Загрузка файла",
+    "description": "Получить настройки фильтров (Функция)",
+    "id": "1f9954fd-8bc8-47f6-ba0e-e2abbb8566f0"
+  },
+  {
+    "action": "DownloadFile",
+    "name": "Скачивание файла",
+    "description": "Получить настройки фильтров (Функция)",
+    "id": "850af7d5-77ec-4de3-8917-e8754943a547"
+  },
+  {
+    "action": "PortalAnaliticalReporting",
+    "name": "Аналитическая отчетность",
+    "description": "Аналитическая отчетность (Модуль)",
+    "id": "4ef48104-c732-4cc2-81c1-00291e939608"
+  },
+  {
+    "action": "PortalReportFilterLifeCycleStatus",
+    "name": "Фильтр статусов ЖЦ",
+    "description": "Фильтр выбора по статусу ЖЦ",
+    "id": "d1832f5a-3910-472e-9d27-72d2f66ea93b"
+  },
+  {
+    "action": "PortalReportFilterAllDimension",
+    "name": "Фильтр аналитических срезов",
+    "description": "Фильтр аналитических срезов",
+    "id": "0251c03d-fe9a-47e0-8650-b3d8ab3f3446"
+  },
+  {
+    "action": "PortalReportFilterParticipantOffer",
+    "name": "Фильтр: данные аналитических срезов по КП",
+    "description": "Фильтр: данные аналитических срезов по КП",
+    "id": "47c7ae32-ccc0-489e-b021-32a7450bb16e"
+  },
+  {
+    "action": "OfferAnalysisABC",
+    "name": "ABC анализ",
+    "description": "Проведение анализа кооперационного взаимодействия методом, позволяющим классифицировать объекты анализа по степени их важности",
+    "id": "f6b8ab49-a93f-436a-9be5-1f99488e58f4"
+  },
+  {
+    "action": "OfferAnalysisFMR",
+    "name": "FMR анализ",
+    "description": "Проведение анализа кооперационного взаимодействия методом, позволяющим классифицировать объекты анализа по степени частоты их спроса",
+    "id": "b6111fe3-da95-43e4-97c2-e9be1b5e8c2d"
+  },
+  {
+    "action": "OfferAnalysisXYZ",
+    "name": "XYZ анализ",
+    "description": "XYZПроведение анализа методом, позволяющим произвести классификацию спроса по маркам сплавов в зависимости от характера их потребления и точности прогнозирования изменений в их потребности в течение определенного временного цикла",
+    "id": "59803521-5783-4471-bef6-a4c6663fb2c0"
+  },
+  {
+    "action": "FilterSettingSet",
+    "name": "Настройка фильтра",
+    "description": "Настройка фильтра",
+    "id": "44aa8776-16d1-422b-b307-c24930811c1f"
+  },
+  {
+    "action": "FilterSettingGet",
+    "name": "Чтение настроек фильтра",
+    "description": "Чтение настроек фильтра",
+    "id": "c60db035-1995-4556-b690-b4774a68bfc4"
+  },
+  {
+    "action": "Admin",
+    "name": "Администрирование",
+    "description": "Администрирование (Подсистема)",
+    "id": "3be90fd2-d8ca-47e7-b530-ddf3e0819d10"
+  },
+  {
+    "action": "Settings",
+    "name": "Настройка",
+    "description": "Настройка (Модуль)",
+    "id": "5c9924e9-9200-437b-81a1-f219ec20b48c"
+  },
+  {
+    "action": "LifeCycleObject",
+    "name": "Конфигуратор ЖЦ",
+    "description": "Конфигуратор ЖЦ (Модуль)",
+    "id": "ce83dcaf-9552-475c-a0b6-92846073c822"
+  },
+  {
+    "action": "LifeCycleListView",
+    "name": "Жизненный цикл",
+    "description": "Ведение жизненных циклов объектов системы и управление разрешенными переходами статусов объектов",
+    "id": "b0f869c5-2c6f-4910-83af-e0760d64e560"
+  },
+  {
+    "action": "LifeCycleDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "b9ae2c30-8e63-4817-a68a-fcff3cc1d049"
+  },
+  {
+    "action": "LifeCycleUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "8910bb80-77f5-4506-a9b9-c51e92f4d671"
+  },
+  {
+    "action": "LifeCycleDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "783d1c0e-823f-4846-a90b-2b9aae330f97"
+  },
+  {
+    "action": "LifeCycleRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "16bc8d1e-6a79-4d38-8a99-5e1774246b45"
+  },
+  {
+    "action": "LifeCycleShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "0838de3e-f211-45ec-a3bb-52470283998a"
+  },
+  {
+    "action": "LifeCycleSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "1374b098-39a8-4629-848e-e65182d32f18"
+  },
+  {
+    "action": "StatusLifeCycleListView",
+    "name": "Статусы",
+    "description": "Ведения статусов объектов",
+    "id": "0072a2fa-acd7-46f1-8b9e-94c1fd1fc862"
+  },
+  {
+    "action": "StatusLifeCycleDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "87140282-ec74-4303-be3a-12709a74e6a5"
+  },
+  {
+    "action": "StatusLifeCycleUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "f69ea5f9-bd64-4519-803e-6dc3c1472616"
+  },
+  {
+    "action": "StatusLifeCycleDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "f91a57c4-ddcf-4cbb-8133-af157a8d4c84"
+  },
+  {
+    "action": "StatusLifeCycleRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "6dfb60ec-c3cc-4814-b43f-d9ebae3c5b06"
+  },
+  {
+    "action": "StatusLifeCycleShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "63b943a3-1a37-4626-ad64-d3a060681667"
+  },
+  {
+    "action": "StatusLifeCycleSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "cfefc5ef-81c4-4bbb-9801-733bda94c4e7"
+  },
+  {
+    "action": "ObjectExtendRefBook",
+    "name": "Конфигурирование объектов",
+    "description": "Конфигурирование объектов (Модуль)",
+    "id": "3c589c5f-a8bd-415f-b85d-3ddfb7f3b842"
+  },
+  {
+    "action": "ObjectExtendListView",
+    "name": "Объекты для расширения полями из справочника",
+    "description": "Расширенная настройках объектов дополнительными системными справочниками",
+    "id": "1b517ea3-feda-401f-9f63-169ab83cd3aa"
+  },
+  {
+    "action": "ObjectExtendDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "21d86ab3-d1be-4add-b30b-9c6958c1526c"
+  },
+  {
+    "action": "ObjectExtendRefBookListView",
+    "name": "Список полей",
+    "description": "Список полей для расширения (Функция)",
+    "id": "c787d8c7-5245-40a1-bd73-e9420b7da366"
+  },
+  {
+    "action": "ObjectExtendRefBookForSelect",
+    "name": "Выбор полей",
+    "description": "Выбор списка полей для расширения (Функция)",
+    "id": "419d119b-b9e1-462d-8878-8c47814cb73c"
+  },
+  {
+    "action": "ObjectExtendRefBookUpdate",
+    "name": "Сохранение",
+    "description": "Создание",
+    "id": "acc113b1-bbda-4b82-8b4f-f0a8e94db654"
+  },
+  {
+    "action": "ObjectExtendRefSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "c986d490-0b7b-418e-8f77-b000a27e96dd"
+  },
+  {
+    "action": "NSI",
+    "name": "Нормативно справочная информация",
+    "description": "Нормативно справочная информация (Модуль)",
+    "id": "e654ed38-742d-40b7-a0a8-1256f88a766a"
+  },
+  {
+    "action": "SettingNSI",
+    "name": "Конфигуратор НСИ",
+    "description": "Конфигуратор НСИ (Модуль)",
+    "id": "536a10b6-d70b-4a4f-84ca-ac4c42534484"
+  },
+  {
+    "action": "ReferenceBookListView",
+    "name": "Системные справочники",
+    "description": "Ведение системных справочников и их элементов",
+    "id": "278479f0-0135-4f30-95d0-10971210a607"
+  },
+  {
+    "action": "ReferenceBookDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "ec3f92a9-3f38-4e80-916c-768139b1e9e5"
+  },
+  {
+    "action": "ReferenceBookUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "ba02e111-db78-485d-85a4-663832219f27"
+  },
+  {
+    "action": "ReferenceBookDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "2f0e5c6f-986f-4deb-be15-179d62c9ff60"
+  },
+  {
+    "action": "ReferenceBookRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "e56f22ce-4048-4e90-b1fa-097898c72897"
+  },
+  {
+    "action": "ReferenceBookShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "6f126a49-74e5-4fc1-9729-3420889d330b"
+  },
+  {
+    "action": "ReferenceBookSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "9dd7d3a0-f8c3-4a4d-b690-fdfa122fd51d"
+  },
+  {
+    "action": "ReferenceBookStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "a3764b24-7894-40a3-968e-00f6099ac398"
+  },
+  {
+    "action": "ReferenceBookStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "053b8c45-1fd2-4373-9898-c2604d50fab5"
+  },
+  {
+    "action": "ReferenceBookItemListView",
+    "name": "Элементы системных справочников",
+    "description": "Элементы системных справочников (Функция)",
+    "id": "e20255f8-db31-469c-be88-c068667a39af"
+  },
+  {
+    "action": "ReferenceBookItemDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "3cfa84ea-8a4d-46a9-9f98-b8b32780c46a"
+  },
+  {
+    "action": "ReferenceBookItemUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "8bb537a3-f1a1-40cf-96e5-f955380a7e33"
+  },
+  {
+    "action": "ReferenceBookItemDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "f039c891-fcdf-4274-892a-86a1ed03f968"
+  },
+  {
+    "action": "ReferenceBookItemClassifierList",
+    "name": "Список классификаторов",
+    "description": "Список классификаторов",
+    "id": "2de1eaec-c996-4f0b-be90-43f50c195958"
+  },
+  {
+    "action": "ReferenceBookItemTreeView",
+    "name": "Элементы системных справочников (дерево)",
+    "description": "Элементы системных справочников (дерево)",
+    "id": "47dbdf83-453b-496e-a8ec-6359c099c96b"
+  },
+  {
+    "action": "ReferenceBookItemRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "fbb2d0eb-c0b7-47ce-8c52-ff7dc6eeb894"
+  },
+  {
+    "action": "ReferenceBookItemShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "6a9b5431-8e08-4895-9950-4aa83e8040c4"
+  },
+  {
+    "action": "ReferenceBookItemSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "d990e76e-e4d6-4825-b878-db86476bc9e7"
+  },
+  {
+    "action": "ReferenceBookItemStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "57fd5456-f97d-4d5b-b753-376ca40c097f"
+  },
+  {
+    "action": "ReferenceBookItemStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "5f34cd38-e10f-45a8-a933-d90f0dfe556f"
+  },
+  {
+    "action": "LinkReferenceBookListView",
+    "name": "Связи между системными справочниками",
+    "description": "Связи между системными справочниками (Функция)",
+    "id": "c32349f2-0228-4521-93ca-18e795c23e4e"
+  },
+  {
+    "action": "LinkReferenceBookForSelected",
+    "name": "Список для связывания",
+    "description": "Список для связывания",
+    "id": "ba268f59-e0d1-4d05-8b05-6c43e8092b98"
+  },
+  {
+    "action": "LinkReferenceBookUpdate",
+    "name": "Сохранение связи",
+    "description": "Сохранение связи",
+    "id": "495d73e7-a947-4c62-b4d9-e9940711c85f"
+  },
+  {
+    "action": "LinkReferenceBookSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "03046719-1866-4687-a0bc-0d9e8dd60455"
+  },
+  {
+    "action": "LinkReferenceBookClassifierListView",
+    "name": "Связи справочника с классификатором",
+    "description": "Связи справочника с классификатором (Функция)",
+    "id": "4951d170-f4f1-4e99-8691-0c6339d4db91"
+  },
+  {
+    "action": "LinkReferenceBookClassifierForSelected",
+    "name": "Список для связывания",
+    "description": "Список для связывания",
+    "id": "864c5d25-24e2-4f96-b22f-7fafcd972d6a"
+  },
+  {
+    "action": "LinkReferenceBookClassifierUpdate",
+    "name": "Сохранение связи",
+    "description": "Сохранение связи",
+    "id": "d53de02f-e08e-43a4-8202-2f04ece0cd27"
+  },
+  {
+    "action": "LinkReferenceBookClassifierSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "626489e3-6b43-4433-b548-c504aa375fbb"
+  },
+  {
+    "action": "LinkExternalAttributeToReferenceBookListView",
+    "name": "Связи справочника с атрибутами",
+    "description": "Связи справочника с атрибутами (Функция)",
+    "id": "92b82fb0-d52b-4df2-b065-105a7566010f"
+  },
+  {
+    "action": "ClassifierListView",
+    "name": "Системные классификаторы",
+    "description": "Ведение системных классификаторов и их элементов",
+    "id": "12e3a2a2-a63b-4859-b064-5e7264773a3f"
+  },
+  {
+    "action": "ClassifierDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "723416c4-b4b8-46da-8f78-a4a4c9cdc527"
+  },
+  {
+    "action": "ClassifierUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "82ca938b-01af-4f47-8416-996250e76a60"
+  },
+  {
+    "action": "ClassifierDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "899eecb0-d747-4daa-be80-e2a92e973708"
+  },
+  {
+    "action": "ClassifierRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "d0a5d929-dce2-4ff6-8dc9-4ec2a170d7b8"
+  },
+  {
+    "action": "ClassifierShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "ba164e60-b7d7-41be-88f6-e4a7d1fd3195"
+  },
+  {
+    "action": "ClassifierSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "65e43d2d-ba36-4ea7-ada3-6702f8841b38"
+  },
+  {
+    "action": "ClassifierStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "b899b921-3bbd-4204-8dcb-18261ebe15ab"
+  },
+  {
+    "action": "ClassifierStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "1e1e1a10-be27-4d1f-b8c5-d3f90cb442be"
+  },
+  {
+    "action": "ClassifierItemListView",
+    "name": "Элементы системных классификаторов",
+    "description": "Элементы системных классификаторов (Функция)",
+    "id": "bc6e77de-c657-4d11-a700-892cc40fd620"
+  },
+  {
+    "action": "ClassifierItemDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "4b11e5f9-b3f3-4254-bfd9-2f12a1567c58"
+  },
+  {
+    "action": "ClassifierItemUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "fb5e1673-7444-4dea-a5b0-05f971e4e21e"
+  },
+  {
+    "action": "ClassifierItemDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "a1da8008-f6c0-45b2-8eda-ef2211fad893"
+  },
+  {
+    "action": "ClassifierItemRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "60a214b0-d449-4eca-bf4c-454a44b89cc6"
+  },
+  {
+    "action": "ClassifierItemShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "347e47de-b46b-4ddc-a2fd-7a71e35b139b"
+  },
+  {
+    "action": "ClassifierItemSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "e1a6b9c7-30cf-4259-860d-e83e5206c4e0"
+  },
+  {
+    "action": "ClassifierItemStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "ac465672-f308-48c2-bd8f-0238d841f27d"
+  },
+  {
+    "action": "ClassifierItemStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "7ec49508-b32e-409f-bd58-f4b15e846319"
+  },
+  {
+    "action": "LinkExternalAttributeToClassifierListView",
+    "name": "Связи классификатора с атрибутами",
+    "description": "Связи классификатора с атрибутами (Функция)",
+    "id": "2dc37ebe-890f-4866-8992-879fd1a889d5"
+  },
+  {
+    "action": "ExternalAttributeListView",
+    "name": "Внешние атрибуты",
+    "description": "Ведение внешних атрибутов системных справочников и классификаторов",
+    "id": "b065cfe5-b4bc-4c47-8fd7-c5a76d100ac1"
+  },
+  {
+    "action": "ExternalAttributeDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "77839a80-953a-4620-afc6-f6678cdf388d"
+  },
+  {
+    "action": "ExternalAttributeUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "3b93f368-c289-4cb3-a31b-1b4f1585264a"
+  },
+  {
+    "action": "ExternalAttributeDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "914809bb-85da-4fad-9c5e-b27b46c60a40"
+  },
+  {
+    "action": "ExternalAttributeRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "85602f10-a184-4a79-8f37-0385deeba61d"
+  },
+  {
+    "action": "ExternalAttributeShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "9cf09d56-10f5-4dba-8451-de063cf776b4"
+  },
+  {
+    "action": "ExternalAttributeSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "bdf9ed62-6765-4a66-a304-8b0ad36ad02f"
+  },
+  {
+    "action": "ExternalAttributeStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "e85216a0-52fb-4583-a802-1e5453adf571"
+  },
+  {
+    "action": "ExternalAttributeStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "fa837c80-10e0-4822-ab4b-8ecb2491810f"
+  },
+  {
+    "action": "ProdactionPotentialSettings",
+    "name": "Конфигуратор ПП",
+    "description": "Конфигуратор ПП (Модуль)",
+    "id": "57fa5df3-588b-47bb-a53c-2995bf00886f"
+  },
+  {
+    "action": "ComponentListView",
+    "name": "Составляющие производственного потенциала",
+    "description": "Ведение составляющих производственного потенциала и настройки аналитических разрезов сбора, хранения, обработки и использования данных",
+    "id": "43585f59-be30-468f-96a6-e3b6c702cbe0"
+  },
+  {
+    "action": "ComponentDetailView",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "3b7d44be-9bc5-4730-8ab0-8e4e8f0ce4b2"
+  },
+  {
+    "action": "ComponentUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "948ba690-2ec6-4cba-9fb2-6cd2c6fb6b2a"
+  },
+  {
+    "action": "ComponentDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "7ed73ca0-b411-4b5e-90a0-85512c4d76c6"
+  },
+  {
+    "action": "ComponentRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "650ec269-df9d-435c-be72-bea1f9766589"
+  },
+  {
+    "action": "ComponentShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "1ef192b6-ecdf-458d-9313-4bf2e5d6255b"
+  },
+  {
+    "action": "ComponentSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "992e43cb-d2d6-4ca3-9a15-85070551bfe3"
+  },
+  {
+    "action": "ComponentStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "b198e54c-0a11-4342-86d3-1aee66aca2f2"
+  },
+  {
+    "action": "ComponentStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "cbfd01a8-84bb-49ef-b1d5-502afac62ba1"
+  },
+  {
+    "action": "LinkComponentKitIndicatorListView",
+    "name": "Связь составляющего ПП с набором паказателей",
+    "description": "Связь составляющего ПП с набором паказателей (Функция)",
+    "id": "838bbad9-d0d0-4930-acbd-55201c343b8a"
+  },
+  {
+    "action": "LinkComponentKitIndicatorSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "b37c64ab-a747-42ec-b2bc-2a7fe826a598"
+  },
+  {
+    "action": "IndicatorListView",
+    "name": "Показатели",
+    "description": "Ведение показателей, используемых при создании экземпляров показателей",
+    "id": "2fdc780c-fd6a-4066-9773-aa071abc9009"
+  },
+  {
+    "action": "IndicatorDetailView",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "69156b06-ca18-453e-b107-8a9771b5732d"
+  },
+  {
+    "action": "IndicatorUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "ae0481d5-24e7-438b-a83d-f110e506478c"
+  },
+  {
+    "action": "IndicatorDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "6bf76444-1119-4b5c-9045-3f3b76171140"
+  },
+  {
+    "action": "IndicatorRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "d376a71d-f74f-4f75-a84a-31e98dd84c15"
+  },
+  {
+    "action": "IndicatorShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "5dc58b67-594e-4d02-8d48-38b6253a0a5b"
+  },
+  {
+    "action": "IndicatorSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "aa6e1b16-de95-44b5-aeda-c700df54cf69"
+  },
+  {
+    "action": "IndicatorStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "bea9d457-d376-4115-9047-517a0ce06770"
+  },
+  {
+    "action": "IndicatorStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "343074a3-1587-42ee-bfac-f17665bfa311"
+  },
+  {
+    "action": "KitIndicatorListView",
+    "name": "Наборы показателей",
+    "description": "Ведение групп экземпляров показателей по функциональному признаку и назначение их составляющей производственного потенциала",
+    "id": "a7435152-d89e-466a-8661-bef6f942accf"
+  },
+  {
+    "action": "KitIndicatorDetailView",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "5e970569-f7c7-4b87-9296-566d2aa0086b"
+  },
+  {
+    "action": "KitIndicatorUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "32261bf7-d219-4c6b-a34e-01648fc97732"
+  },
+  {
+    "action": "KitIndicatorDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "2d7f79a6-2a1e-4327-bc75-70e30c1cd2a8"
+  },
+  {
+    "action": "KitIndicatorRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "0271b5ad-86dc-40b5-872d-de6e43249b2b"
+  },
+  {
+    "action": "KitIndicatorShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "8859f221-6870-4530-9565-c2d695f6a0e2"
+  },
+  {
+    "action": "KitIndicatorSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "388fd9f9-b974-409d-82cb-a3ebe0486d92"
+  },
+  {
+    "action": "KitIndicatorStatusChange",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "bb4b99e6-e281-4796-b11f-eccd239aa2f0"
+  },
+  {
+    "action": "KitIndicatorStatusNext",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "8eccb875-8d0a-455d-98f7-1ab7ba59fb53"
+  },
+  {
+    "action": "InstanceIndicatorListView",
+    "name": "Экземпляр показателя",
+    "description": "Экземпляр показателя (Функция)",
+    "id": "47112709-5f65-49bf-a9d4-391aa54abc07"
+  },
+  {
+    "action": "InstanceIndicatorDetailView",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "50dd9344-d05b-40ee-b7ef-29182dceb0da"
+  },
+  {
+    "action": "InstanceIndicatorUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "0752d38b-f380-43c4-9776-92d076b3961a"
+  },
+  {
+    "action": "InstanceIndicatorDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "94426589-5620-4ddd-9078-95d1381b25ec"
+  },
+  {
+    "action": "InstanceIndicatorRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "1aec2d7f-9dbb-41ac-9050-e9f89c6fb16b"
+  },
+  {
+    "action": "InstanceIndicatorShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "4d039359-8393-4255-ab7b-9b83d908845f"
+  },
+  {
+    "action": "InstanceIndicatorSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "06cc1f45-2f21-4a52-8e37-d2b7859d273d"
+  },
+  {
+    "action": "InstanceIndicatorStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "69b29d51-6418-4734-8b79-af926779a2cf"
+  },
+  {
+    "action": "InstanceIndicatorStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "a81a2b99-7b5a-49b0-904d-76dd0fb18ffd"
+  },
+  {
+    "action": "LinkTypeValueOfIndicatorListView",
+    "name": "Связь экземпляра показателя с типами значений показателя",
+    "description": "Связь экземпляра показателя с типами значений показателя (Функция)",
+    "id": "58bd6960-cfea-4737-888e-a476ad05c5ce"
+  },
+  {
+    "action": "LinkTypeValueOfIndicatorForSelected",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "a56ba5d6-92c0-443a-a4a3-27b487fa75f6"
+  },
+  {
+    "action": "LinkTypeValueOfIndicatorUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "9a8b8e85-748f-4ff7-aa44-0336eba4a9f5"
+  },
+  {
+    "action": "TypeValueIndicatorListView",
+    "name": "Типы значений показателей",
+    "description": "Ведение типов значений показателей",
+    "id": "c25b0dbf-7d11-4124-901b-ce17a50c2482"
+  },
+  {
+    "action": "TypeValueIndicatorDetailView",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "388fddca-5df5-4f9f-8f80-15c12c0d141b"
+  },
+  {
+    "action": "TypeValueIndicatorUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "9fb8a9c0-cc09-4779-b4a2-7a530ee1d1f2"
+  },
+  {
+    "action": "TypeValueIndicatorDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "fcce07bf-7eb2-4715-ace3-1c189b1d5baa"
+  },
+  {
+    "action": "TypeValueIndicatorRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "c1922724-3a1b-4503-a74c-e1fef2267338"
+  },
+  {
+    "action": "TypeValueIndicatorShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "594fb010-b6eb-40a1-bfc4-f45a699402a4"
+  },
+  {
+    "action": "TypeValueIndicatorSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "0aea0102-fd2c-4742-bdab-b60c2d021f98"
+  },
+  {
+    "action": "TypeValueIndicatorStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "ace42367-b849-4287-a400-3b174e28d063"
+  },
+  {
+    "action": "TypeValueIndicatorStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "b02742c7-1e93-4860-956b-15f8e2e605c0"
+  },
+  {
+    "action": "UnitOfMeasureListView",
+    "name": "Единицы измерения",
+    "description": "Ведение едениц измерения",
+    "id": "8aaa3a12-7b04-486e-b8eb-490ae1f4bc67"
+  },
+  {
+    "action": "UnitOfMeasureDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "65ae210c-b390-4774-8e98-4ede027fc469"
+  },
+  {
+    "action": "UnitOfMeasureUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "02ca1a61-138b-4a37-aa1e-1027861eb267"
+  },
+  {
+    "action": "UnitOfMeasureDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "4ab3a041-fca0-48b2-a2ee-25edeb5255e0"
+  },
+  {
+    "action": "UnitOfMeasureClassifierList",
+    "name": "Список классификаторов",
+    "description": "Список классификаторов",
+    "id": "1811867e-1c12-424e-bbaf-b64dc7abc45d"
+  },
+  {
+    "action": "UnitOfMeasureTreeView",
+    "name": "Единицы измерения (дерево)",
+    "description": "Единицы измерения (дерево)",
+    "id": "a548c449-14b6-4ee5-abb8-9a6a1d8b20c1"
+  },
+  {
+    "action": "UnitOfMeasureRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "9134936d-c5e7-4f2d-931a-4a7f1b5152ec"
+  },
+  {
+    "action": "UnitOfMeasureShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "9f76a30f-112b-4b49-8450-543d79f26c94"
+  },
+  {
+    "action": "UnitOfMeasureSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "9b576efa-eb37-4b35-9143-e186fd8bc60b"
+  },
+  {
+    "action": "UnitOfMeasureStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "007fcaca-d03f-417a-8ef2-90dbaf919546"
+  },
+  {
+    "action": "UnitOfMeasureStatusNext",
+    "name": "Переход статуса",
+    "description": "Переход статуса",
+    "id": "da272f2c-ee59-4f6d-b4ed-8db2bb366bd5"
+  },
+  {
+    "action": "AccessRight",
+    "name": "Управление профилями пользователей",
+    "description": "Управление профилями пользователей (Модуль)",
+    "id": "191c9615-3d2f-482f-9221-156566688650"
+  },
+  {
+    "action": "RolesListView",
+    "name": "Роли",
+    "description": "Ведение ролей пользователей по каждому участнику информационного взаимодействия и настройке прав доступа для каждой роли",
+    "id": "96bc6935-4155-4fa3-9ea9-dc3c894b24fc"
+  },
+  {
+    "action": "RoleDetailView",
+    "name": "Карточка",
+    "description": "Просмотр данных роли",
+    "id": "8953aea1-13ba-413c-a3d3-0f935022a74d"
+  },
+  {
+    "action": "RoleUpdate",
+    "name": "Редактирование",
+    "description": "Создание роли",
+    "id": "a087c200-aff1-4e49-a7a8-f96a63c04e2d"
+  },
+  {
+    "action": "RoleDelete",
+    "name": "Удаление",
+    "description": "Удаление роли",
+    "id": "614d2bea-0dc4-4a69-a22e-98d987875de1"
+  },
+  {
+    "action": "RoleRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "8700ae2f-d3e1-4ab7-930e-7979924055fe"
+  },
+  {
+    "action": "RoleShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "00f393aa-6502-459a-a5a4-e73d3e649065"
+  },
+  {
+    "action": "RoleSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "0da8970b-74a6-4e0f-a340-e078f9b11b00"
+  },
+  {
+    "action": "UsersListView",
+    "name": "Пользователи",
+    "description": "Ведение пользователей по каждому участнику информационного взаимодействия и назначению ролей пользователей",
+    "id": "eaa94736-0600-4442-9528-12db733745f3"
+  },
+  {
+    "action": "UserDetailView",
+    "name": "Карточка",
+    "description": "Просмотр данных пользователя",
+    "id": "b961bc57-796a-458b-9c17-3bc673dfa1b6"
+  },
+  {
+    "action": "UserUpdate",
+    "name": "Редактирование",
+    "description": "Создание пользователя",
+    "id": "32670895-e122-4e4d-95b2-54b5a3baff0a"
+  },
+  {
+    "action": "UserDelete",
+    "name": "Удаление",
+    "description": "Удаление пользователя",
+    "id": "1966e390-3f99-49ff-a749-9e5d437ddb1f"
+  },
+  {
+    "action": "UserRestore",
+    "name": "Восстановление",
+    "description": "Восстановление пользователя",
+    "id": "eecb6f42-3459-4c75-9f93-cbc10171c29a"
+  },
+  {
+    "action": "UserShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "2c9b8943-a206-4d30-bf82-1cc9c62cb681"
+  },
+  {
+    "action": "UserAudit",
+    "name": "Аудит",
+    "description": "Информация о действиях пользователя",
+    "id": "4c1bef16-c15d-4ae0-8df1-ffc6116d3257"
+  },
+  {
+    "action": "UserSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "5b09b6ad-06e2-4efc-bf3b-733c850e78f8"
+  },
+  {
+    "action": "ContractorListView",
+    "name": "Участники информационного взаимодействия",
+    "description": "Ведение участников информационного взаимодействия",
+    "id": "e05c5e27-034b-429f-ace0-9bd4e46fd5dd"
+  },
+  {
+    "action": "ContractorDetail",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "49825f16-7536-4e3b-aa1d-94b2d269507e"
+  },
+  {
+    "action": "ContractorUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "2f877be9-23bf-4cde-a8c3-42dddae401cf"
+  },
+  {
+    "action": "ContractorDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "4dd3ee49-5b24-4c3d-86ff-3ef784462c36"
+  },
+  {
+    "action": "ContractorRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "b7c8795a-37fb-41c2-89cf-a4cea5753f35"
+  },
+  {
+    "action": "ContractorShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "6b7e6b5b-4dcb-4ba8-80da-56dcdd143898"
+  },
+  {
+    "action": "ContractorSysInfo",
+    "name": "Системная информация",
+    "description": "Системная информация",
+    "id": "dd078e10-8d83-4132-abb9-de383f0a2913"
+  },
+  {
+    "action": "ContractorStatusNext",
+    "name": "Статусы ЖЦ",
+    "description": "Статусы ЖЦ",
+    "id": "aa42ed99-2c1a-490c-863f-d65fbea30281"
+  },
+  {
+    "action": "ContractorStatusChange",
+    "name": "Смена статуса",
+    "description": "Смена статуса",
+    "id": "ebdd9c6f-5425-441f-ae3b-ffb90bf9fedc"
+  },
+  {
+    "action": "ContactParticipantListView",
+    "name": "Контактная информация",
+    "description": "Контактная информация (Функция)",
+    "id": "cad59eec-088e-48e4-bb8e-32c1d54b254d"
+  },
+  {
+    "action": "ContactParticipantDetailView",
+    "name": "Карточка",
+    "description": "Карточка",
+    "id": "423fe9b2-a71e-4d94-940a-0a20d0e54add"
+  },
+  {
+    "action": "ContactParticipantUpdate",
+    "name": "Создание",
+    "description": "Создание",
+    "id": "22ef0c6a-7481-42b6-b3d7-6f8f40ed4261"
+  },
+  {
+    "action": "ContactParticipantDelete",
+    "name": "Удаление",
+    "description": "Удаление",
+    "id": "7b2db6ad-582b-4c80-b492-b0df0f797ef1"
+  },
+  {
+    "action": "ContactParticipantRestore",
+    "name": "Восстановление",
+    "description": "Восстановление",
+    "id": "9f7c57d8-7491-461b-8919-b6a5ff8dc1e4"
+  },
+  {
+    "action": "ContactParticipantShowDeleted",
+    "name": "Показать удаленные",
+    "description": "Показать удаленные",
+    "id": "343d0aac-9c11-44a6-a999-b7f7b0230431"
+  },
+  {
+    "action": "ReportGetFilter",
+    "name": "Получить настройки фильтров",
+    "description": "Получить настройки фильтров (Функция)",
+    "id": "7fb43f8a-5218-4097-a437-87e6854f77ae"
+  },
+  {
+    "action": "ReportSetFilter",
+    "name": "Записать настройки фильтров",
+    "description": "Записать настройки фильтров (Функция)",
+    "id": "7d16ac4b-c6f4-41f1-8375-cdc4e1c5cc70"
+  },
+  {
+    "action": "ReportMapData",
+    "name": "Данные для отображения карты",
+    "description": "Данные для отображения карты (Функция)",
+    "id": "3f856f27-ac9c-4b34-977e-43ca92c21c1d"
+  },
+  {
+    "action": "ReportMapFilter",
+    "name": "Данные для фильтра",
+    "description": "Данные для фильтра (Функция)",
+    "id": "5180a3f9-7ac3-45a8-be67-1b609f5d8263"
+  },
+  {
+    "action": "ReportPivotValues",
+    "name": "Данные произвольного отчета",
+    "description": "Данные произвольного отчета (Функция)",
+    "id": "ef48800d-7e03-4fe5-83d7-84f52d9b7aa7"
+  }
+]
