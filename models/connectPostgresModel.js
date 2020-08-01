@@ -8,7 +8,6 @@ const initOptions = {
 const pgp = require("pg-promise")(initOptions);
 
 class UpdateDataBase {
-
   static updateMzk() {
     const mzk = {
       host: "172.25.43.138",
@@ -85,10 +84,7 @@ class UpdateDataBase {
         console.log("ERROR:", error);
       })
       .finally(dataBaseLit.$pool.end);
-
   }
-
 }
-
 
 module.exports = UpdateDataBase;
