@@ -41,7 +41,7 @@ form {
 }
 .card-content.white-text.no-cover-list {
   height: 100%;
-  max-height: 40rem;
+  max-height: 45rem;
   transition: 0.15s ease-in-out;
   overflow: hidden;
 }
@@ -66,6 +66,7 @@ table.highlight > tbody > tr {
 
 .back,
 .del-l,
+.save,
 .updateBase,
 .saveActions,
 .reloadPage {

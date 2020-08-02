@@ -11,7 +11,12 @@ router.delete('/remove/:id', async (req, res) => {
 
 router.get('/update', async (req, res) => {
     const base = req.baseUrl.slice(1, 4).toUpperCase()
-    await ListActions.checkCover('apiPostman', `actions${base}`, `noCover${base}`)
+    if (base === "MZK" || base === "LIT") {
+        await ListActions.checkCover('apiPostman', `actions${base}`, `noCover${base}`)
+    } else if (base === "MES") {
+        await ListActions.checkCoverMES(`controllers${base}`, 'apiPostman', `actions${base}`, `noCover${base}`)
+    }
+
     await ListActions.update(`noCover${base}`, `noCoverList${base}`)
     res.redirect(`${req.baseUrl}`)
 })

@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { v4: uuid } = require('uuid')
 
 class ListActions {
 
@@ -19,6 +20,36 @@ class ListActions {
             }
         });
         fs.writeFile(path.join(__dirname, '..', 'data', `${noCoverBase}.json`), JSON.stringify(testNonCoverDescribe), err => {
+            if (err) throw err
+        })
+        return new Promise((resolve, reject) => {
+            fs.readFile(path.join(__dirname, '..', 'data', `${noCoverBase}.json`), 'utf-8', (err, content) => {
+                if (err) { reject(`При чтении всех ${noCoverBase} ошибка: ${err}`) }
+                resolve(JSON.parse(content))
+            })
+        })
+    }
+
+    static async checkCoverMES(controller, api, db, noCoverBase) {
+        const controllers = await ListActions.getAllActions(controller)
+        const controlActions = [];
+        controllers.Controllers.forEach((item) => {
+            item.Methods.forEach((elMethod) => {
+                controlActions.push({
+                    description: `${elMethod.Type}:${item.Name.slice(0, -10)}/${elMethod.Name}`,
+                    action: `${item.Name.slice(0, -10)}`,
+                    name: `${elMethod.Type}`,
+                    id: uuid()
+                });
+            });
+        });
+        fs.writeFile(path.join(__dirname, '..', 'data', `${db}.json`), JSON.stringify(controlActions), err => {
+            if (err) throw err
+        })
+        const allApiPostman = await ListActions.getAllActions(api)
+        const allApiBase = await ListActions.getAllActions(db)
+        const arrDataBase = allApiBase.filter((n) => allApiPostman.indexOf(n.description) === -1)
+        fs.writeFile(path.join(__dirname, '..', 'data', `${noCoverBase}.json`), JSON.stringify(arrDataBase), err => {
             if (err) throw err
         })
         return new Promise((resolve, reject) => {

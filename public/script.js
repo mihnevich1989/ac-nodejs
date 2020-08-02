@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const instances3 = M.Tooltip.init(elems3);
   const reAnalitic = document.querySelector(".reAnalitic");
 
+
   const $cardNoCover = document.querySelector("#noCoverList");
   if ($cardNoCover) {
     $cardNoCover.addEventListener("click", (event) => {
@@ -75,11 +76,8 @@ document.addEventListener("DOMContentLoaded", function () {
     backCheck.setAttribute("href", `${document.location.pathname.slice(0, 4)}`);
     enterUpdate.setAttribute("href", `${document.location.pathname}/update`);
   }
-
-  if (document.location.pathname === "/mzk/check-cover") {
-    fomrSaveList.setAttribute("value", "MZK");
-  } else if (document.location.pathname === "/lit/check-cover") {
-    fomrSaveList.setAttribute("value", "Lit");
+  if (fomrSaveList) {
+    fomrSaveList.setAttribute("value", `${(document.location.pathname).slice(1, 4).toUpperCase()}`);
   }
   const reloadPage = document.querySelector(".reloadPage");
   if (reloadPage) {
@@ -125,37 +123,39 @@ document.addEventListener("DOMContentLoaded", function () {
   const updateRow = document.querySelector(".update");
   if (updateBase) {
     updateBase.addEventListener("click", (e) => {
-      const rarget = e.target;
-      const dataUpdate = rarget.getAttribute("data-update");
-      const dataTitle = rarget.getAttribute("data-title");
-      const progress = document.createElement("div");
-      progress.classList.add("progress", "col", "s6", "offset-s3");
-      const preload = document.createElement("div");
-      preload.classList.add("indeterminate");
-      progress.appendChild(preload);
-      progress.style.cssText = `
-                display: block;
-                transform: translateY(-16.7rem);
-      `;
-      updateRow.insertAdjacentElement("beforeend", progress);
-      if (dataUpdate === "mzk" || dataUpdate === "lit") {
-        fetch(`/update-${dataUpdate}`, {
-          method: "GET",
-        }).then(async (res) => {
-          if (!res.ok) {
-            progress.remove();
-            M.toast({
-              html: `<span class="red-text">Нет соединения с базой данных ${dataTitle}!</span>`,
-              displayLength: 1500,
-            });
-          } else if (res.ok) {
-            progress.remove();
-            M.toast({
-              html: `<span class="green-text">База данных ${dataTitle} обновлена!</span>`,
-              displayLength: 1500,
-            });
-          }
-        });
+      const target = e.target;
+      if (target.classList.contains('update-base-actions')) {
+        const dataUpdate = target.getAttribute("data-update");
+        const dataTitle = target.getAttribute("data-title");
+        const progress = document.createElement("div");
+        progress.classList.add("progress", "col", "s6", "offset-s3");
+        const preload = document.createElement("div");
+        preload.classList.add("indeterminate");
+        progress.appendChild(preload);
+        progress.style.cssText = `
+                  display: block;
+                  transform: translateY(-16.7rem);
+        `;
+        updateRow.insertAdjacentElement("beforeend", progress);
+        if (dataUpdate === "mzk" || dataUpdate === "lit") {
+          fetch(`/update-${dataUpdate}`, {
+            method: "GET",
+          }).then(async (res) => {
+            if (!res.ok) {
+              progress.remove();
+              M.toast({
+                html: `<span class="red-text">Нет соединения с базой данных ${dataTitle}!</span>`,
+                displayLength: 1500,
+              });
+            } else if (res.ok) {
+              progress.remove();
+              M.toast({
+                html: `<span class="green-text">База данных ${dataTitle} обновлена!</span>`,
+                displayLength: 1500,
+              });
+            }
+          });
+        }
       }
     });
   }

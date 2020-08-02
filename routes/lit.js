@@ -15,19 +15,16 @@ router.get('/', async (req, res) => {
         noCoverEdit: Math.round((allApiUpdateList.length * 100) / allApiBase.length),
         cover: Math.round((cover * 100) / allApiBase.length)
     }
-    setTimeout(function () {
-        res.render('lit', {
-            title: 'Проект: Литейка',
-            isLit: true,
-            allApiPostman,
-            allApiUpdateList,
-            allApiBase,
-            percent,
-            noCover,
-            cover
-        })
-    }, 200)
-
+    res.render('lit', {
+        title: 'Проект: Литейка',
+        isLit: true,
+        allApiPostman,
+        allApiUpdateList,
+        allApiBase,
+        percent,
+        noCover,
+        cover
+    })
 })
 router.post('/', async (req, res) => {
     const api = await (req.body.api).split(',');
