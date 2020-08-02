@@ -1,0 +1,335 @@
+{
+  "Controllers": [
+    {
+      "Name": "ConfirmationSchemeController",
+      "Methods": [
+        {
+          "Name": "GetSchemes",
+          "Type": "GET"
+        },
+        {
+          "Name": "GetScheme",
+          "Type": "GET"
+        },
+        {
+          "Name": "GetStages",
+          "Type": "GET"
+        },
+        {
+          "Name": "GetStagesByType",
+          "Type": "GET"
+        }
+      ]
+    },
+    {
+      "Name": "EventsController",
+      "Methods": [
+        {
+          "Name": "Get",
+          "Type": "POST"
+        }
+      ]
+    },
+    {
+      "Name": "FileTransferController",
+      "Methods": [
+        {
+          "Name": "SendFile",
+          "Type": "POST"
+        }
+      ]
+    },
+    {
+      "Name": "OperationsController",
+      "Methods": [
+        {
+          "Name": "GetActualData",
+          "Type": "GET"
+        },
+        {
+          "Name": "GetSubmissionOperations",
+          "Type": "GET"
+        },
+        {
+          "Name": "GetSubmissions",
+          "Type": "GET"
+        },
+        {
+          "Name": "GetRecords",
+          "Type": "GET"
+        },
+        {
+          "Name": "Confirm",
+          "Type": "POST"
+        },
+        {
+          "Name": "Finish",
+          "Type": "POST"
+        }
+      ]
+    },
+    {
+      "Name": "PersonnelController",
+      "Methods": [
+        {
+          "Name": "Get",
+          "Type": "GET"
+        },
+        {
+          "Name": "GetGroups",
+          "Type": "GET"
+        },
+        {
+          "Name": "Find",
+          "Type": "GET"
+        },
+        {
+          "Name": "OnWorkPlace",
+          "Type": "GET"
+        },
+        {
+          "Name": "GetConfirmStages",
+          "Type": "GET"
+        },
+        {
+          "Name": "ClockIn",
+          "Type": "POST"
+        },
+        {
+          "Name": "ClockOut",
+          "Type": "POST"
+        },
+        {
+          "Name": "DeleteAssignment",
+          "Type": "POST"
+        },
+        {
+          "Name": "Relocate",
+          "Type": "POST"
+        },
+        {
+          "Name": "GetPersonnelPermissions",
+          "Type": "GET"
+        },
+        {
+          "Name": "DeleteWorkScheduleAssignment",
+          "Type": "POST"
+        },
+        {
+          "Name": "ChangeWorkScheduleAssignment",
+          "Type": "POST"
+        },
+        {
+          "Name": "GetWorkCardPositions",
+          "Type": "POST"
+        }
+      ]
+    },
+    {
+      "Name": "ProductionOrdersController",
+      "Methods": [
+        {
+          "Name": "GetOrders",
+          "Type": "POST"
+        },
+        {
+          "Name": "GetOrderByBarCode",
+          "Type": "GET"
+        },
+        {
+          "Name": "ChangeOperationStatus",
+          "Type": "POST"
+        },
+        {
+          "Name": "ChangeOrderStatus",
+          "Type": "POST"
+        },
+        {
+          "Name": "SetOrder",
+          "Type": "POST"
+        },
+        {
+          "Name": "SetProcessingCardOperation",
+          "Type": "POST"
+        },
+        {
+          "Name": "SetOrderOperation",
+          "Type": "POST"
+        },
+        {
+          "Name": "SetComposedOperation",
+          "Type": "POST"
+        },
+        {
+          "Name": "SetProcessingCard",
+          "Type": "POST"
+        },
+        {
+          "Name": "DeleteOrder",
+          "Type": "POST"
+        },
+        {
+          "Name": "DeleteOrderOperation",
+          "Type": "POST"
+        },
+        {
+          "Name": "DeleteProcessingCardOperation",
+          "Type": "POST"
+        },
+        {
+          "Name": "DeleteProcessingCard",
+          "Type": "POST"
+        },
+        {
+          "Name": "GetActivityTypes",
+          "Type": "GET"
+        }
+      ]
+    },
+    {
+      "Name": "ReasonController",
+      "Methods": [
+        {
+          "Name": "GetReasons",
+          "Type": "GET"
+        }
+      ]
+    },
+    {
+      "Name": "ShiftTaskPositionsController",
+      "Methods": [
+        {
+          "Name": "SetShiftTaskPosition",
+          "Type": "POST"
+        },
+        {
+          "Name": "StatusColors",
+          "Type": "GET"
+        },
+        {
+          "Name": "Find",
+          "Type": "GET"
+        },
+        {
+          "Name": "Get",
+          "Type": "POST"
+        },
+        {
+          "Name": "GetSerialNumbers",
+          "Type": "GET"
+        },
+        {
+          "Name": "Start",
+          "Type": "POST"
+        },
+        {
+          "Name": "PartialConfirm",
+          "Type": "POST"
+        },
+        {
+          "Name": "Interrupt",
+          "Type": "POST"
+        },
+        {
+          "Name": "Finish",
+          "Type": "POST"
+        }
+      ]
+    },
+    {
+      "Name": "TerminalsController",
+      "Methods": [
+        {
+          "Name": "ByWorkPlace",
+          "Type": "GET"
+        },
+        {
+          "Name": "ByPersonnel",
+          "Type": "GET"
+        }
+      ]
+    },
+    {
+      "Name": "WorkCardController",
+      "Methods": [
+        {
+          "Name": "ChangeStatus",
+          "Type": "POST"
+        }
+      ]
+    },
+    {
+      "Name": "WorkPlacesController",
+      "Methods": [
+        {
+          "Name": "Get",
+          "Type": "GET"
+        },
+        {
+          "Name": "Find",
+          "Type": "GET"
+        },
+        {
+          "Name": "GetStatuses",
+          "Type": "GET"
+        },
+        {
+          "Name": "GetStatusesAtDate",
+          "Type": "GET"
+        },
+        {
+          "Name": "GetRegisteredPersonnel",
+          "Type": "GET"
+        },
+        {
+          "Name": "GetWorkPlaceByRegisteredPersonnel",
+          "Type": "GET"
+        },
+        {
+          "Name": "StartShift",
+          "Type": "POST"
+        },
+        {
+          "Name": "ChangeShift",
+          "Type": "POST"
+        },
+        {
+          "Name": "EndShift",
+          "Type": "POST"
+        },
+        {
+          "Name": "ChangeStatus",
+          "Type": "POST"
+        },
+        {
+          "Name": "PerformRegistration",
+          "Type": "POST"
+        },
+        {
+          "Name": "CompleteRegistration",
+          "Type": "POST"
+        },
+        {
+          "Name": "ReplacePersonnel",
+          "Type": "POST"
+        },
+        {
+          "Name": "DeleteAssignment",
+          "Type": "POST"
+        },
+        {
+          "Name": "Relocate",
+          "Type": "POST"
+        },
+        {
+          "Name": "DeleteWorkScheduleAssignment",
+          "Type": "POST"
+        },
+        {
+          "Name": "ChangeWorkScheduleAssignment",
+          "Type": "POST"
+        }
+      ]
+    }
+  ]
+}
