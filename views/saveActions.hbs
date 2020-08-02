@@ -10,14 +10,14 @@
         <div class="card blue-grey darken-2 mzk-actions">
             <div class="card-content white-text">
                 <div id="noCoverList" class="card-content white-text no-cover-list">
-                    <div class="collection">
+                    <div class="collection collection-list">
                         {{#if list.length}}
                         {{#each list}}
                         <a href="/save-actions/{{list_id}}/edit" class="collection-item"
                             data-id={{list_id}}>{{list_name}} - {{date}}</a>
                         {{/each}}
                         {{else}}
-                        <a href="#!" class="collection-item">Записей нет!</a>
+                        <p href="#!" class="collection-item teal-text center-align">Записей нет!</p>
                         {{/if}}
                     </div>
                 </div>

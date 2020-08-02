@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const elems3 = document.querySelectorAll(".tooltipped");
   const instances3 = M.Tooltip.init(elems3);
   const reAnalitic = document.querySelector(".reAnalitic");
+
   const $cardNoCover = document.querySelector("#noCoverList");
   if ($cardNoCover) {
     $cardNoCover.addEventListener("click", (event) => {
@@ -33,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td><button class="btn btn-small red darken-1 waves-effect waves-light js-remove" data-id=${c.id}><i data-id=${c.id}
                     class="material-icons trash js-remove tooltipped" data-position="right"
                         data-tooltip="Удалить">
-                    delete_forever
+                        backspace
                 </i></button></td>
                     
                 </tr>
@@ -50,6 +51,23 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
+
+  const $delList = document.querySelector('.delete-list')
+  if ($delList) {
+    $delList.addEventListener('click', (e) => {
+      if (e.target.classList.contains('delete-list')) {
+        const id = e.target.dataset.id;
+        fetch(`${event.view.location.pathname}/delete/${id}`, {
+          method: "delete",
+        }).then(res => {
+          if (res.ok) {
+            document.location.assign($delList.dataset.href)
+          }
+        })
+      }
+    })
+  }
+
   const backCheck = document.querySelector(".back-check");
   const enterUpdate = document.querySelector(".updateBase");
   const fomrSaveList = document.querySelector("#checkUrl");

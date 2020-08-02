@@ -50,11 +50,11 @@ class ListActions {
         })
     }
 
-    static async remove(id, name) {
-        let allActions = await ListActions.getAllActions(name)
+    static async remove(id, collection) {
+        let allActions = await ListActions.getAllActions(collection)
         allActions = allActions.filter(c => c.id !== id)
         return new Promise((resolve, reject) => {
-            fs.writeFile(path.join(__dirname, '..', 'data', `${name}.json`), JSON.stringify(allActions), err => {
+            fs.writeFile(path.join(__dirname, '..', 'data', `${collection}.json`), JSON.stringify(allActions), err => {
                 if (err) reject(err)
                 resolve(allActions)
             })
@@ -71,10 +71,10 @@ class ListActions {
             })
         })
     }
-    static getAllActions(name) {
+    static getAllActions(collection) {
         return new Promise((resolve, reject) => {
-            fs.readFile(path.join(__dirname, '..', 'data', `${name}.json`), 'utf-8', (err, content) => {
-                if (err) { reject(`При чтении всех ${name} ошибка: ${err}`) }
+            fs.readFile(path.join(__dirname, '..', 'data', `${collection}.json`), 'utf-8', (err, content) => {
+                if (err) { reject(`При чтении всех ${collection} ошибка: ${err}`) }
                 resolve(JSON.parse(content))
             })
         })

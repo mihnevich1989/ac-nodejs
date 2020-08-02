@@ -63,7 +63,9 @@ table.highlight > tbody > tr {
   padding: 3px 0;
 }
 
+
 .back,
+.del-l,
 .updateBase,
 .saveActions,
 .reloadPage {

@@ -7,12 +7,16 @@
                         data-tooltip="Вернуться назад"><i class="arrow-back material-icons">
                             keyboard_backspace
                         </i></a>
-                    <strong> {{list.list_name}}</strong>
+                    <b> {{list.list_name}}</b>
                     <a class="waves-effect waves-light btn modal-trigger right tooltipped reAnalitic"
                         data-position="top" data-tooltip="Проверка покрытия по текущему списку" href="#modal1"><i
                             class="material-icons">analytics</i></a>
                     <button class="btn waves-effect waves-light right tooltipped reloadPage" data-position="top"
                         data-tooltip="Синхронизировать изменения"><i class="material-icons">sync_alt</i></button>
+                    <button data-href="/save-actions"
+                        class="btn waves-effect waves-light right tooltipped del-l delete-list" data-id={{list.list_id}}
+                        data-position="top" data-tooltip="Удалить список"><i data-id={{list.list_id}}
+                            class="material-icons delete-list">delete_sweep</i></button>
                 </span>
             </div>
         </div>
@@ -33,7 +37,7 @@
                             <td>
                                 <button class="btn btn-small red darken-1 waves-effect waves-light js-remove"
                                     data-id={{id}}>
-                                    <i data-id={{id}} class="material-icons trash js-remove">delete_forever</i>
+                                    <i data-id={{id}} class="material-icons trash js-remove">backspace</i>
                                 </button>
                             </td>
                         </tr>

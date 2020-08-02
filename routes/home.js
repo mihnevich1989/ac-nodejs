@@ -16,6 +16,7 @@ router.get("/", (req, res) => {
   });
 });
 
+
 router.get("/update-mzk", async (req, res) => {
   const mzk = {
     host: "172.25.43.138",

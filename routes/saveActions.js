@@ -10,6 +10,16 @@ router.delete('/:id/edit/remove/:lid', async (req, res) => {
     const actions = await ListActions.removeEditList('list', req.params.id, req.params.lid);
     res.status(200).json(actions)
 })
+router.delete('/:id/edit/delete/:lid', async (req, res) => {
+    let allActions = await ListActions.getAllActions('list')
+    allActions = allActions.filter(c => c.list_id !== req.params.lid)
+    fs.writeFile(path.join(__dirname, '..', 'data', `list.json`), JSON.stringify(allActions), err => {
+        if (err) {
+            return res.status(500)
+        }
+        return res.status(200).json(allActions)
+    })
+})
 
 router.get('/', async (req, res) => {
     const list = await ListActions.getAllActions('list')
