@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
         cover: Math.round((cover * 100) / allApiBase.length)
     }
     res.render('lit', {
-        title: 'Проект: Литейка',
+        title: 'Проект: ЛМ',
         isLit: true,
         allApiPostman,
         allApiUpdateList,

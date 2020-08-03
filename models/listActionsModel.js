@@ -36,7 +36,8 @@ class ListActions {
         controllers.Controllers.forEach((item) => {
             item.Methods.forEach((elMethod) => {
                 controlActions.push({
-                    description: `${elMethod.Type}:${item.Name.slice(0, -10)}/${elMethod.Name}`,
+                    full_name: `${elMethod.Type}:${item.Name.slice(0, -10)}/${elMethod.Name}`,
+                    description: `${item.Name.slice(0, -10)}/${elMethod.Name}`,
                     action: `${item.Name.slice(0, -10)}`,
                     name: `${elMethod.Type}`,
                     id: uuid()
@@ -48,7 +49,7 @@ class ListActions {
         })
         const allApiPostman = await ListActions.getAllActions(api)
         const allApiBase = await ListActions.getAllActions(db)
-        const arrDataBase = allApiBase.filter((n) => allApiPostman.indexOf(n.description) === -1)
+        const arrDataBase = allApiBase.filter((n) => allApiPostman.indexOf(n.full_name) === -1)
         fs.writeFile(path.join(__dirname, '..', 'data', `${noCoverBase}.json`), JSON.stringify(arrDataBase), err => {
             if (err) throw err
         })

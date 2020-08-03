@@ -14,7 +14,7 @@
                         {{#if list.length}}
                         {{#each list}}
                         <a href="/save-actions/{{list_id}}/edit" class="collection-item"
-                            data-id={{list_id}}>{{list_name}} - {{date}}</a>
+                            data-id={{list_id}}>{{list_name}} <span class="right">создано - {{date}}</span></a>
                         {{/each}}
                         {{else}}
                         <p href="#!" class="collection-item teal-text center-align">Записей нет!</p>

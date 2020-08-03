@@ -28,7 +28,7 @@ app.use('/lit/check-cover', checkCover)
 app.use('/mes/check-cover', checkCover)
 app.use('/save-actions', saveRouter)
 
-app.use(function (err, req, res, next) {
+app.use(function (err, req, res) {
     console.error(err.stack);
     res.status(500).send('Что-то полшо не так, обновите страницу!');
 });
