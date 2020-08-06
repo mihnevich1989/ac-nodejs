@@ -28,10 +28,10 @@ app.use('/lit/check-cover', checkCover)
 app.use('/mes/check-cover', checkCover)
 app.use('/save-actions', saveRouter)
 
-app.use(function (err, req, res) {
-    console.error(err.stack);
-    res.status(500).send('Что-то полшо не так, обновите страницу!');
-});
+// app.use(function (err, req, res) {
+//     console.error(err.stack);
+//     res.status(500).send('Что-то полшо не так, обновите страницу!');
+// });
 
 const PORT = process.env.PORT || 4000
 app.listen(PORT, () => {

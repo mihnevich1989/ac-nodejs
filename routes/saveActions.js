@@ -52,13 +52,11 @@ router.post('/', async (req, res) => {
         saveActionList = await ListActions.getAllActions(`noCoverList${baseName}`),
         date = ListActions.getDate(),
         list = await ListActions.getAllActions('list');
-    console.log(baseName);
-    console.log(listName);
     list.push({ list_name: listName, date: date, base: baseName, list_id: uuid(), actions: saveActionList })
     fs.writeFile(path.join(__dirname, '..', 'data', 'list.json'), JSON.stringify(list), err => {
         if (err) throw err
     })
-    
+
     res.redirect('/save-actions')
 })
 
